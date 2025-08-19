@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "name": "ai-dtg-website",
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "index-zh.html", 
+      "use": "@vercel/static"
+    },
+    {
+      "src": "index-ko.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "assets/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/zh",
+      "dest": "/index-zh.html"
+    },
+    {
+      "src": "/ko", 
+      "dest": "/index-ko.html"
+    },
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    }
+  ]
+}
