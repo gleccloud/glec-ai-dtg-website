@@ -121,7 +121,7 @@
     </script>
     
     <!-- Core Web Vitals Optimization -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Removed X-UA-Compatible as it's not needed for modern browsers -->
     <meta name="theme-color" content="#00ffff">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -132,6 +132,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="assets/videos/KakaoTalk_20250814_145521290.mp4" as="video" type="video/mp4">
+    <link rel="preload" href="assets/videos/KakaoTalk_20250814_145511097.mp4" as="video" type="video/mp4">
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/orbitron/v25/yMJWMIlzdpvBhQQL_Qq7dys.woff2" type="font/woff2" crossorigin="anonymous">
     
     <!-- Premium Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -248,6 +253,7 @@
             right: 0;
             z-index: 9998;
             background: linear-gradient(180deg, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.8) 100%);
+            -webkit-backdrop-filter: blur(20px);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             border-bottom: 1px solid rgba(0, 255, 255, 0.2);
@@ -385,6 +391,7 @@
             visibility: hidden;
             transform: translateY(-10px);
             transition: all var(--duration-normal) var(--ease-out-expo);
+            -webkit-backdrop-filter: blur(20px);
             backdrop-filter: blur(20px);
             z-index: 9999;
             box-shadow: 0 10px 30px rgba(0, 255, 255, 0.3);
@@ -892,6 +899,7 @@
             padding: var(--space-lg);
             border-radius: var(--border-radius-xl);
             border: 2px solid rgba(0, 255, 255, 0.3);
+            -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
             animation: ces-glow 3s ease-in-out infinite alternate;
         }
@@ -945,6 +953,7 @@
             border: 1px solid rgba(0, 255, 255, 0.3);
             border-radius: var(--border-radius-lg);
             padding: var(--space-lg);
+            -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
         }
         
@@ -1075,6 +1084,7 @@
             height: 100%;
             background: rgba(0, 0, 0, 0.8);
             z-index: 1000;
+            -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
         }
         
@@ -1197,6 +1207,7 @@
             background: rgba(0, 0, 0, 0.6);
             border: 1px solid rgba(0, 255, 255, 0.2);
             border-radius: var(--border-radius-xl);
+            -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
         }
         
@@ -1473,6 +1484,7 @@
                 <li><a href="#transformation" class="nav-link" data-translate="nav_transformation">AI Transformation</a></li>
                 <li><a href="#ai-dtg" class="nav-link" data-translate="nav_dtg">AI DTG</a></li>
                 <li><a href="#ai-dashboard" class="nav-link" data-translate="nav_dashboard">AI Dashboard</a></li>
+                <li><a href="#technology" class="nav-link" data-translate="nav_technology">CORE TECHNOLOGY</a></li>
                 <li><a href="#cta" class="nav-link" data-translate="nav_contact">Contact</a></li>
                 <li><a href="#ces2026" class="nav-link" data-translate="nav_ces2026">CES 2026</a></li>
             </ul>
@@ -1541,15 +1553,15 @@
                     <h3 class="feature-title" data-translate="safety_title">AI-Based Driver and Cargo Safety Enhancement</h3>
                     <p class="feature-description" data-translate="safety_description">
                         Detect driver fatigue, drowsiness, and distraction through real-time AI inference<br>
-                        and provide immediate alerts. Continuously monitor cargo status to<br>
-                        prevent accidents and ensure safe transportation.
+                        and provide immediate alerts.<br>
+                        Continuously monitor cargo status to prevent accidents and ensure safe transportation.
                     </p>
                 </div>
                 
                 <div class="feature-card">
                     <h3 class="feature-title" data-translate="carbon_title">AI-Based International Standard Carbon Measurement and Reduction</h3>
                     <p class="feature-description" data-translate="carbon_description">
-                        Precise carbon emission measurement system complying with ISO 14064 international standards<br>
+                        Precise carbon emission measurement system complying with ISO-14083 international standards.<br>
                         Monitor real-time carbon emissions and maximize fuel efficiency through AI optimization<br>
                         to effectively reduce carbon emissions.
                     </p>
@@ -1570,11 +1582,20 @@
                 </p>
             </div>
             
-            <!-- DTG Video -->
-            <div class="transformation-video-container" style="max-width: 600px; margin: 0 auto;">
-                <video class="transformation-video dtg-video" autoplay muted loop playsinline style="width: 400px !important; max-width: 400px !important; margin: 0 auto; display: block;">
-                    <source src="assets/videos/0819.mp4" type="video/mp4">
-                </video>
+            <!-- DTG Videos -->
+            <div style="display: flex; justify-content: center; gap: 20px; margin: 0 auto 3rem; flex-wrap: wrap;">
+                <!-- DTG Video 1 -->
+                <div class="transformation-video-container" style="width: 600px; height: 600px; max-width: 100%; padding: 0; box-sizing: border-box; display: flex; align-items: center; justify-content: center;">
+                    <video class="transformation-video dtg-video" autoplay muted loop playsinline style="width: 500px !important; height: 500px !important; max-width: none !important; max-height: none !important; object-fit: contain; display: block;">
+                        <source src="assets/videos/dtg1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <!-- DTG Video 2 -->
+                <div class="transformation-video-container" style="width: 600px; height: 600px; max-width: 100%; padding: 0; box-sizing: border-box; display: flex; align-items: center; justify-content: center;">
+                    <video class="transformation-video dtg-video" autoplay muted loop playsinline style="width: 500px !important; height: 500px !important; max-width: none !important; max-height: none !important; object-fit: contain; display: block;">
+                        <source src="assets/videos/dtg2.mp4?v=20250820" type="video/mp4">
+                    </video>
+                </div>
             </div>
             
             <!-- DTG Features -->
@@ -1589,11 +1610,11 @@
                 </div>
                 
                 <div class="feature-card">
-                    <h3 class="feature-title" data-translate="5g_cloud_title">5G Connectivity & Cloud Integration</h3>
+                    <h3 class="feature-title" data-translate="5g_cloud_title">LTE Connectivity & Cloud Integration</h3>
                     <p class="feature-description" data-translate="5g_cloud_description">
-                        Transmit real-time data to the cloud through ultra-high-speed 5G network<br>
-                        and provide insights through big data analysis. Real-time integration with vehicle control center<br>
-                        enables immediate response.
+                        Transmit real-time data to the cloud through cost-effective LTE network<br>
+                        and provide insights through big data analysis.<br>
+                        Real-time integration with vehicle control center enables immediate response and optimization.
                     </p>
                 </div>
             </div>
@@ -1635,8 +1656,8 @@
                     <h3 class="feature-title" data-translate="voice_agent_title">AI Voice Conversational Agent</h3>
                     <p class="feature-description" data-translate="voice_agent_description">
                         Real-time AI voice recognition and conversation system provides immediate emergency safety alerts<br>
-                        to drivers. Voice warnings during hazardous situations reduce accident rates by over 20%,<br>
-                        supporting safe driving through natural conversations with drivers.
+                        to drivers.<br>
+                        Voice warnings during hazardous situations reduce accident rates by over 20%, supporting safe driving through natural conversations with drivers.
                     </p>
                 </div>
             </div>
@@ -1647,9 +1668,9 @@
     <section class="technology-section" id="technology">
         <div class="section-container">
             <div class="section-header">
-                <span class="section-label">CORE TECHNOLOGY</span>
-                <h2 class="section-title">Cutting-Edge AI & API Technology</h2>
-                <p class="section-description">
+                <span class="section-label" data-translate="technology_label">CORE TECHNOLOGY</span>
+                <h2 class="section-title" data-translate="technology_title">Cutting-Edge AI & API Technology</h2>
+                <p class="section-description" data-translate="technology_description">
                     World-leading AI technology and international standard carbon measurement API<br>
                     Creating sustainable logistics through innovation
                 </p>
@@ -1658,15 +1679,15 @@
             <!-- GLEC AI Technology -->
             <div class="tech-block">
                 <div class="tech-header">
-                    <h3 class="tech-title">GLEC AI - 20B LLM Real-time Inference Engine</h3>
-                    <span class="tech-badge">AI SAFETY</span>
+                    <h3 class="tech-title" data-translate="glec_ai_title">GLEC AI - 20B LLM Real-time Inference Engine</h3>
+                    <span class="tech-badge" data-translate="ai_safety_badge">AI SAFETY</span>
                 </div>
                 
                 <!-- GLEC AI Demo Video -->
-                <div class="tech-video-container" style="width: 1000px; height: 1000px; max-width: 100%; margin: 20px auto; padding: 20px; box-sizing: border-box; display: flex; align-items: center; justify-content: center;">
-                    <video class="tech-video" style="width: 960px; height: 960px; max-width: 100%; max-height: 100%; object-fit: contain; display: block;" autoplay="autoplay" muted="muted" loop="loop" playsinline="playsinline" controls="controls" preload="auto" id="glecAiVideo">
-                        <source src="assets/videos/화면 기록 2025-08-20 오후 3.14.31.mov" type="video/quicktime">
-                        <source src="assets/videos/화면 기록 2025-08-20 오후 3.14.31.mov" type="video/mp4">
+                <div class="tech-video-container" style="width: 700px; height: 700px; max-width: 100%; margin: 20px auto; padding: 20px; box-sizing: border-box; display: flex; align-items: center; justify-content: center;">
+                    <video class="tech-video" style="width: 700px; height: 700px; max-width: 100%; max-height: 100%; object-fit: contain; display: block;" autoplay muted loop playsinline preload="auto" id="glecAiVideo">
+                        <source src="assets/videos/GLEC_AI_video.mov" type="video/quicktime">
+                        <source src="assets/videos/GLEC_AI_video.mov" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
@@ -1717,10 +1738,10 @@
                 </div>
                 
                 <!-- GLEC API Demo Video -->
-                <div class="tech-video-container" style="width: 1000px; height: 1000px; max-width: 100%; margin: 20px auto; padding: 20px; box-sizing: border-box; display: flex; align-items: center; justify-content: center;">
-                    <video class="tech-video" style="width: 960px; height: 960px; max-width: 100%; max-height: 100%; object-fit: contain; display: block;" autoplay="autoplay" muted="muted" loop="loop" playsinline="playsinline" controls="controls" preload="auto" id="glecApiVideo">
-                        <source src="assets/videos/화면 기록 2025-08-20 오후 3.08.53.mov" type="video/quicktime">
-                        <source src="assets/videos/화면 기록 2025-08-20 오후 3.08.53.mov" type="video/mp4">
+                <div class="tech-video-container" style="width: 700px; height: 700px; max-width: 100%; margin: 20px auto; padding: 20px; box-sizing: border-box; display: flex; align-items: center; justify-content: center;">
+                    <video class="tech-video" style="width: 700px; height: 700px; max-width: 100%; max-height: 100%; object-fit: contain; display: block;" autoplay muted loop playsinline preload="auto" id="glecApiVideo">
+                        <source src="assets/videos/GLEC_API_video.mov" type="video/quicktime">
+                        <source src="assets/videos/GLEC_API_video.mov" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
@@ -1805,29 +1826,29 @@
                 </svg>
             </div>
             
-            <h2 class="ces-title">Meet Us at CES 2026</h2>
-            <p class="ces-subtitle">Experience the Future of AI Transportation</p>
-            <p class="ces-description">
+            <h2 class="ces-title" data-translate="ces_title">Meet Us at CES 2026</h2>
+            <p class="ces-subtitle" data-translate="ces_subtitle">Experience the Future of AI Transportation</p>
+            <p class="ces-description" data-translate="ces_description">
                 Join GLEC at the world's most influential tech event. Discover our innovative AI DTG solutions 
                 and see how we're transforming the transportation industry with cutting-edge artificial intelligence.
             </p>
             
             <div class="ces-info">
                 <div class="ces-info-item">
-                    <div class="ces-info-label">Dates</div>
-                    <div class="ces-info-value">January 6-9, 2026</div>
+                    <div class="ces-info-label" data-translate="ces_dates_label">Dates</div>
+                    <div class="ces-info-value" data-translate="ces_dates_value">January 6-9, 2026</div>
                 </div>
                 <div class="ces-info-item">
-                    <div class="ces-info-label">Location</div>
-                    <div class="ces-info-value">Las Vegas, Nevada</div>
+                    <div class="ces-info-label" data-translate="ces_location_label">Location</div>
+                    <div class="ces-info-value" data-translate="ces_location_value">Las Vegas, Nevada</div>
                 </div>
                 <div class="ces-info-item">
-                    <div class="ces-info-label">Venue</div>
-                    <div class="ces-info-value">Eureka Hall</div>
+                    <div class="ces-info-label" data-translate="ces_venue_label">Venue</div>
+                    <div class="ces-info-value" data-translate="ces_venue_value">Eureka Hall</div>
                 </div>
                 <div class="ces-info-item">
-                    <div class="ces-info-label">Booth</div>
-                    <div class="ces-info-value">Visit Us Soon</div>
+                    <div class="ces-info-label" data-translate="ces_booth_label">Booth</div>
+                    <div class="ces-info-value" data-translate="ces_booth_value">Visit Us Soon</div>
                 </div>
             </div>
         </div>
@@ -1836,22 +1857,23 @@
     <!-- CES 2026 Invitation Section -->
     <section class="ces-invitation-section">
         <div class="ces-invitation-content">
-            <h2 class="ces-invitation-title">Get Your CES 2026 Invitation</h2>
+            <h2 class="ces-invitation-title" data-translate="ces_invitation_title">Get Your CES 2026 Invitation</h2>
             
             <form class="ces-invitation-form" id="cesInvitationForm">
                 <div class="ces-form-group">
-                    <label for="cesEmail" class="ces-form-label">Your Email Address</label>
+                    <label for="cesEmail" class="ces-form-label" data-translate="ces_email_label">Your Email Address</label>
                     <input 
                         type="email" 
                         id="cesEmail" 
                         name="email" 
                         class="ces-form-input" 
+                        data-translate-placeholder="ces_email_placeholder"
                         placeholder="Enter your email to receive CES 2026 invitation"
                         required
                     >
                 </div>
                 
-                <button type="submit" class="ces-submit-btn">
+                <button type="submit" class="ces-submit-btn" data-translate="ces_submit_btn">
                     Request Invitation
                 </button>
             </form>
@@ -1890,68 +1912,117 @@
                 nav_transformation: "AI Transformation",
                 nav_dtg: "AI DTG", 
                 nav_dashboard: "AI Dashboard",
-                hero_subtitle: "World-Class AI Transformation Platform",
+                nav_technology: "CORE TECHNOLOGY",
+                nav_contact: "연락처",
+                nav_ces2026: "CES 2026",
+                hero_subtitle: "세계 최고 수준의 AI 변환 플랫폼",
                 hero_description: "노후 화물차를 첨단 AI 차량으로 변환하는 세계 최고의 통합 솔루션<br>AI 기반 안전 향상과 국제표준 탄소 측정 및 감축 시스템",
-                btn_explore: "Explore Products",
-                btn_transformation: "AI Transformation",
-                transformation_label: "AI TRANSFORMATION",
-                transformation_title: "노후 화물차의 AI Transformation (AX)",
+                btn_explore: "제품 살펴보기",
+                btn_transformation: "AI 변환",
+                transformation_label: "AI 변환",
+                transformation_title: "노후 화물차의 AI 변환 (AX)",
                 transformation_description: "최첨단 AI 기술로 기존 화물차를 스마트 차량으로 업그레이드하여<br>운전자 안전과 환경 보호를 동시에 실현합니다",
                 safety_title: "AI 기반 운전자 및 화물 안전 향상",
-                safety_description: "실시간 AI 추론을 통해 운전자의 피로도, 졸음, 주의 산만을 감지하고<br>즉각적인 경고를 제공합니다. 화물 상태를 지속적으로 모니터링하여<br>사고를 예방하고 안전한 운송을 보장합니다.",
+                safety_description: "실시간 AI 추론을 통해 운전자의 피로도, 졸음, 주의 산만을 감지하고<br>즉각적인 경고를 제공합니다.<br>화물 상태를 지속적으로 모니터링하여 사고를 예방하고 안전한 운송을 보장합니다.",
                 carbon_title: "AI 기반 국제표준 탄소 측정 및 감축",
-                carbon_description: "ISO 14064 국제표준을 준수하는 정밀한 탄소 배출량 측정 시스템으로<br>실시간 탄소 배출을 모니터링하고, AI 최적화를 통해 연료 효율을<br>극대화하여 탄소 배출을 효과적으로 감축합니다.",
-                dtg_label: "AI HARDWARE",
+                carbon_description: "2023년 EU의회가 공식 채택한 최신 수송 탄소배출량 측정 국제표준 ISO-14083을 준수하는 정밀한 측정 시스템입니다.<br>GHG Protocol, CDP, SBTi와 같은 국제 이니셔티브들과 연동되어<br>실시간 탄소 배출을 모니터링하고, AI 최적화를 통해 연료 효율을 극대화하여 탄소 배출을 효과적으로 감축합니다.",
+                dtg_label: "AI 하드웨어",
                 dtg_title: "GLEC AI DTG",
                 dtg_description: "차세대 AI 디지털운행기록장치로 운전자의 안전과 차량 효율성을<br>실시간으로 모니터링하고 최적화합니다",
                 ai_inference_title: "실시간 AI 추론 시스템",
                 ai_inference_description: "고정밀 센서와 엣지 AI 컴퓨팅으로 즉각적인 위험 감지와 대응이 가능합니다.<br>운전자의 상태, 도로 상황, 화물 상태를 실시간으로 분석하여<br>사고를 예방하고 안전한 운행을 보장합니다.",
-                "5g_cloud_title": "5G 연결 & 클라우드 통합",
-                "5g_cloud_description": "초고속 5G 네트워크를 통해 실시간 데이터를 클라우드로 전송하고<br>빅데이터 분석을 통한 인사이트를 제공합니다. 차량 관제 센터와<br>실시간으로 연동되어 즉각적인 대응이 가능합니다.",
-                dashboard_label: "AI SOFTWARE",
+                "5g_cloud_title": "LTE 연결 & 클라우드 통합",
+                "5g_cloud_description": "데이터 사용료가 저렴한 LTE 네트워크를 통해 실시간 데이터를 클라우드로 전송하고 빅데이터 분석을 통한 인사이트를 제공합니다.<br>차량 관제 센터와 실시간으로 연동되어 즉각적인 대응과 최적화가 가능합니다.",
+                dashboard_label: "AI 소프트웨어",
                 dashboard_title: "GLEC AI Dashboard",
                 dashboard_description: "통합 AI 대시보드 시스템으로 차량 운행 데이터를 실시간으로<br>시각화하고 분석하여 최적의 운송 효율을 제공합니다",
                 data_visualization_title: "실시간 데이터 시각화",
                 data_visualization_description: "직관적인 인터페이스로 운전자와 관리자가 모든 정보를 한눈에 파악할 수 있습니다.<br>차량 위치, 운행 경로, 연료 소비, 탄소 배출량 등 모든 데이터를<br>실시간으로 모니터링하고 분석합니다.",
                 voice_agent_title: "AI 음성 대화 에이전트",
-                voice_agent_description: "실시간 AI 음성 인식 및 대화 시스템으로 운전자에게 즉각적인 긴급 안전 경보를<br>제공합니다. 위험 상황 감지 시 음성으로 경고하여 사고율을 20% 이상 감소시키고,<br>운전자와의 자연스러운 대화를 통해 안전 운행을 지원합니다."
+                voice_agent_description: "실시간 AI 음성 인식 및 대화 시스템으로 운전자에게 즉각적인 긴급 안전 경보를<br>제공합니다.<br>위험 상황 감지 시 음성으로 경고하여 사고율을 20% 이상 감소시키고, 운전자와의 자연스러운 대화를 통해 안전 운행을 지원합니다.",
+                ces_title: "CES 2026에서 만나요",
+                ces_subtitle: "AI 운송의 미래를 경험하세요",
+                ces_description: "세계에서 가장 영향력 있는 기술 이벤트에서 GLEC을 만나보세요. 혁신적인 AI DTG 솔루션을 발견하고 첨단 인공지능으로 운송업계를 어떻게 변화시키고 있는지 확인해보세요.",
+                ces_dates_label: "일정",
+                ces_dates_value: "2026년 1월 6-9일",
+                ces_location_label: "장소",
+                ces_location_value: "네바다주 라스베가스",
+                ces_venue_label: "회장",
+                ces_venue_value: "유레카 홀",
+                ces_booth_label: "부스",
+                ces_booth_value: "곧 방문 예정",
+                ces_invitation_title: "CES 2026 초대장 받기",
+                ces_email_label: "이메일 주소",
+                ces_email_placeholder: "CES 2026 초대장을 받을 이메일을 입력하세요",
+                ces_submit_btn: "초대장 요청",
+                technology_label: "핵심 기술",
+                technology_title: "최첨단 AI & API 기술",
+                technology_description: "세계 최고 수준의 AI 기술과 국제표준 탄소 측정 API<br>혁신을 통한 지속가능한 물류 구현",
+                glec_ai_title: "GLEC AI - 20B LLM 실시간 추론 엔진",
+                ai_safety_badge: "AI 안전"
             },
             en: {
                 nav_home: "Home",
                 nav_transformation: "AI Transformation",
                 nav_dtg: "AI DTG", 
                 nav_dashboard: "AI Dashboard",
+                nav_technology: "CORE TECHNOLOGY",
+                nav_contact: "Contact",
+                nav_ces2026: "CES 2026",
                 hero_subtitle: "World-Class AI Transformation Platform",
-                hero_description: "World's leading integrated solution for transforming old freight trucks into advanced AI vehicles<br>AI-based safety enhancement and international standard carbon measurement and reduction system",
+                hero_description: "World's leading integrated solution for transforming aging freight trucks into advanced AI vehicles<br>AI-based safety enhancement and international standard carbon measurement and reduction system",
                 btn_explore: "Explore Products",
                 btn_transformation: "AI Transformation",
                 transformation_label: "AI TRANSFORMATION",
                 transformation_title: "AI Transformation (AX) for Old Freight Trucks",
                 transformation_description: "Upgrade existing freight trucks to smart vehicles with cutting-edge AI technology<br>Simultaneously achieve driver safety and environmental protection",
                 safety_title: "AI-Based Driver and Cargo Safety Enhancement",
-                safety_description: "Detect driver fatigue, drowsiness, and distraction through real-time AI inference<br>and provide immediate alerts. Continuously monitor cargo status to<br>prevent accidents and ensure safe transportation.",
+                safety_description: "Detect driver fatigue, drowsiness, and distraction through real-time AI inference<br>and provide immediate alerts.<br>Continuously monitor cargo status to prevent accidents and ensure safe transportation.",
                 carbon_title: "AI-Based International Standard Carbon Measurement and Reduction",
-                carbon_description: "Precise carbon emission measurement system complying with ISO 14064 international standards<br>Monitor real-time carbon emissions and maximize fuel efficiency through AI optimization<br>to effectively reduce carbon emissions.",
-                dtg_label: "AI HARDWARE",
+                carbon_description: "Precise carbon emission measurement system complying with ISO-14083, the latest international standard for transport carbon emissions officially adopted by EU Parliament in 2023.<br>Integrated with international initiatives like GHG Protocol, CDP, and SBTi.<br>Monitor real-time carbon emissions and maximize fuel efficiency through AI optimization to effectively reduce carbon emissions.",
+                dtg_label: "AI Hardware",
                 dtg_title: "GLEC AI DTG",
                 dtg_description: "Next-generation AI digital tachograph that monitors and optimizes<br>driver safety and vehicle efficiency in real-time",
                 ai_inference_title: "Real-time AI Inference System",
                 ai_inference_description: "Immediate risk detection and response possible with high-precision sensors and edge AI computing.<br>Real-time analysis of driver status, road conditions, and cargo status<br>to prevent accidents and ensure safe operation.",
-                "5g_cloud_title": "5G Connectivity & Cloud Integration",
-                "5g_cloud_description": "Transmit real-time data to the cloud through ultra-high-speed 5G network<br>and provide insights through big data analysis. Real-time integration with vehicle control center<br>enables immediate response.",
-                dashboard_label: "AI SOFTWARE",
+                "5g_cloud_title": "LTE Connectivity & Cloud Integration",
+                "5g_cloud_description": "Transmit real-time data to the cloud through cost-effective LTE network<br>and provide insights through big data analysis.<br>Real-time integration with vehicle control center enables immediate response and optimization.",
+                dashboard_label: "AI Software",
                 dashboard_title: "GLEC AI Dashboard",
                 dashboard_description: "Integrated AI dashboard system that visualizes and analyzes<br>vehicle operation data in real-time to provide optimal transportation efficiency",
                 data_visualization_title: "Real-time Data Visualization",
-                data_visualization_description: "Intuitive interface allows drivers and managers to grasp all information at a glance.<br>Monitor and analyze all data including vehicle location, route, fuel consumption,<br>carbon emissions in real-time.",
+                data_visualization_description: "Intuitive interface allows drivers and managers to grasp all information at a glance.<br>Monitor and analyze vehicle location, routes, fuel consumption, and carbon emissions in real-time.",
                 voice_agent_title: "AI Voice Conversational Agent",
-                voice_agent_description: "Real-time AI voice recognition and conversation system provides immediate emergency safety alerts<br>to drivers. Voice warnings during hazardous situations reduce accident rates by over 20%,<br>supporting safe driving through natural conversations with drivers."
+                voice_agent_description: "Real-time AI voice recognition and conversation system provides immediate emergency safety alerts<br>to drivers.<br>Voice warnings during hazardous situations reduce accident rates by over 20%, supporting safe driving through natural conversations with drivers.",
+                ces_title: "Meet Us at CES 2026",
+                ces_subtitle: "Experience the Future of AI Transportation",
+                ces_description: "Join GLEC at the world's most influential tech event. Discover our innovative AI DTG solutions and see how we're transforming the transportation industry with cutting-edge artificial intelligence.",
+                ces_dates_label: "Dates",
+                ces_dates_value: "January 6-9, 2026",
+                ces_location_label: "Location",
+                ces_location_value: "Las Vegas, Nevada",
+                ces_venue_label: "Venue",
+                ces_venue_value: "Eureka Hall",
+                ces_booth_label: "Booth",
+                ces_booth_value: "Visit Us Soon",
+                ces_invitation_title: "Get Your CES 2026 Invitation",
+                ces_email_label: "Your Email Address",
+                ces_email_placeholder: "Enter your email to receive CES 2026 invitation",
+                ces_submit_btn: "Request Invitation",
+                technology_label: "Core Technology",
+                technology_title: "Cutting-Edge AI & API Technology",
+                technology_description: "World-leading AI technology and international standard carbon measurement API<br>Creating sustainable logistics through innovation",
+                glec_ai_title: "GLEC AI - 20B LLM Real-time Inference Engine",
+                ai_safety_badge: "AI Safety"
             },
             zh: {
                 nav_home: "主页",
                 nav_transformation: "AI 转换",
                 nav_dtg: "AI DTG", 
                 nav_dashboard: "AI 仪表板",
+                nav_technology: "CORE TECHNOLOGY",
+                nav_contact: "联系我们",
+                nav_ces2026: "CES 2026",
                 hero_subtitle: "世界级AI转型平台",
                 hero_description: "将老旧货车转换为先进AI车辆的世界领先综合解决方案<br>基于AI的安全提升和国际标准碳测量及减排系统",
                 btn_explore: "探索产品",
@@ -1960,23 +2031,43 @@
                 transformation_title: "老旧货车的AI转换 (AX)",
                 transformation_description: "利用尖端AI技术将现有货车升级为智能车辆<br>同时实现驾驶员安全和环境保护",
                 safety_title: "基于AI的驾驶员和货物安全提升",
-                safety_description: "通过实时AI推理检测驾驶员疲劳、困倦和分心<br>并提供即时警报。持续监控货物状态<br>预防事故并确保安全运输。",
+                safety_description: "通过实时AI推理检测驾驶员疲劳、困倦和分心<br>并提供即时警报。<br>持续监控货物状态，预防事故并确保安全运输。",
                 carbon_title: "基于AI的国际标准碳测量和减排",
-                carbon_description: "符合ISO 14064国际标准的精密碳排放测量系统<br>实时监控碳排放，通过AI优化最大化燃油效率<br>有效减少碳排放。",
+                carbon_description: "符合2023年欧盟议会正式采纳的最新运输碳排放测量国际标准ISO-14083的精密测量系统。<br>与GHG Protocol、CDP、SBTi等国际倡议组织联动，<br>实时监控碳排放，通过AI优化最大化燃油效率，有效减少碳排放。",
                 dtg_label: "AI 硬件",
                 dtg_title: "GLEC AI DTG",
                 dtg_description: "下一代AI数字行车记录仪，实时监控和优化<br>驾驶员安全和车辆效率",
                 ai_inference_title: "实时AI推理系统",
                 ai_inference_description: "高精度传感器和边缘AI计算实现即时风险检测和响应。<br>实时分析驾驶员状态、道路状况和货物状态<br>预防事故并确保安全运行。",
-                "5g_cloud_title": "5G连接和云集成",
-                "5g_cloud_description": "通过超高速5G网络将实时数据传输到云端<br>并通过大数据分析提供洞察。与车辆控制中心<br>实时集成，实现即时响应。",
+                "5g_cloud_title": "LTE连接和云集成",
+                "5g_cloud_description": "通过数据费用低廉的LTE网络将实时数据传输到云端<br>并通过大数据分析提供洞察。<br>与车辆控制中心实时集成，实现即时响应和优化。",
                 dashboard_label: "AI 软件",
                 dashboard_title: "GLEC AI 仪表板",
                 dashboard_description: "集成AI仪表板系统，实时可视化和分析<br>车辆运行数据，提供最佳运输效率",
                 data_visualization_title: "实时数据可视化",
                 data_visualization_description: "直观界面让驾驶员和管理员一目了然地掌握所有信息。<br>实时监控和分析包括车辆位置、路线、燃油消耗、<br>碳排放在内的所有数据。",
                 voice_agent_title: "AI语音对话代理",
-                voice_agent_description: "实时AI语音识别和对话系统为驾驶员提供即时紧急安全警报。<br>危险情况下的语音警告可将事故率降低20%以上，<br>通过与驾驶员的自然对话支持安全驾驶。"
+                voice_agent_description: "实时AI语音识别和对话系统为驾驶员提供即时紧急安全警报。<br>危险情况下的语音警告可将事故率降低20%以上，<br>通过与驾驶员的自然对话支持安全驾驶。",
+                ces_title: "CES 2026见面会",
+                ces_subtitle: "体验AI运输的未来",
+                ces_description: "在世界最具影响力的科技盛会中与GLEC相遇。发现我们创新的AI DTG解决方案，了解我们如何通过尖端人工智能技术变革运输行业。",
+                ces_dates_label: "日期",
+                ces_dates_value: "2026年1月6-9日",
+                ces_location_label: "地点",
+                ces_location_value: "内华达州拉斯维加斯",
+                ces_venue_label: "场馆",
+                ces_venue_value: "尤里卡大厅",
+                ces_booth_label: "展位",
+                ces_booth_value: "敬请期待",
+                ces_invitation_title: "获取CES 2026邀请函",
+                ces_email_label: "您的邮箱地址",
+                ces_email_placeholder: "输入邮箱地址以接收CES 2026邀请函",
+                ces_submit_btn: "申请邀请函",
+                technology_label: "核心技术",
+                technology_title: "尖端AI与API技术",
+                technology_description: "世界领先的AI技术与国际标准碳测量API<br>通过创新实现可持续物流",
+                glec_ai_title: "GLEC AI - 200亿参数LLM实时推理引擎",
+                ai_safety_badge: "AI安全"
             }
         };
         
@@ -2028,8 +2119,11 @@
             });
         }
         
-        // Auto-play all videos on page load
+        // Auto-play all videos on page load and initialize translation
         window.addEventListener('load', () => {
+            // Initialize page translation
+            translatePage(currentLang);
+            
             const allVideos = document.querySelectorAll('.transformation-video, .dtg-video, .dashboard-video');
             allVideos.forEach(video => {
                 video.play().catch(function(error) {

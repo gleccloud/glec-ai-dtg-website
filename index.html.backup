@@ -1,0 +1,2443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLEC AI DTG - World-Class AI Transformation Platform for Trucks | CES 2026</title>
+    <meta name="description" content="Transform aging trucks into AI-powered vehicles with GLEC's world-leading DTG platform. Advanced safety features, carbon reduction, and real-time dashboard analytics. Join us at CES 2026.">
+    <meta name="keywords" content="GLEC, AI DTG, truck transformation, AI vehicles, carbon reduction, fleet management, CES 2026, smart trucks, vehicle AI, transportation technology">
+    <meta name="author" content="GLEC Inc.">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ai-dtg-website-pd7lhzvqy-glec-incs-projects.vercel.app/">
+    
+    <!-- Alternate Languages -->
+    <link rel="alternate" hreflang="en" href="https://ai-dtg-website-pd7lhzvqy-glec-incs-projects.vercel.app/">
+    <link rel="alternate" hreflang="zh" href="https://ai-dtg-website-pd7lhzvqy-glec-incs-projects.vercel.app/index-zh.html">
+    <link rel="alternate" hreflang="ko" href="https://ai-dtg-website-pd7lhzvqy-glec-incs-projects.vercel.app/index-ko.html">
+    <link rel="alternate" hreflang="x-default" href="https://ai-dtg-website-pd7lhzvqy-glec-incs-projects.vercel.app/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="GLEC AI DTG - Transform Your Fleet with AI Technology">
+    <meta property="og:description" content="World's leading AI transformation platform for commercial trucks. Advanced safety, efficiency, and environmental benefits. Experience the future at CES 2026.">
+    <meta property="og:url" content="https://ai-dtg-website-pd7lhzvqy-glec-incs-projects.vercel.app/">
+    <meta property="og:site_name" content="GLEC AI DTG">
+    <meta property="og:image" content="https://ai-dtg-website-pd7lhzvqy-glec-incs-projects.vercel.app/assets/hardware/beetle_x31_1080.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="zh_CN">
+    <meta property="og:locale:alternate" content="ko_KR">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GLEC AI DTG - AI Transformation Platform for Trucks">
+    <meta name="twitter:description" content="Transform aging trucks into AI-powered vehicles. Advanced safety, carbon reduction, real-time analytics. Join us at CES 2026.">
+    <meta name="twitter:image" content="https://ai-dtg-website-pd7lhzvqy-glec-incs-projects.vercel.app/assets/hardware/beetle_x31_1080.jpg">
+    <meta name="twitter:site" content="@GLEC_AI">
+    <meta name="twitter:creator" content="@GLEC_AI">
+    
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "GLEC Inc.",
+        "alternateName": "GLEC AI DTG",
+        "url": "https://ai-dtg-website-pd7lhzvqy-glec-incs-projects.vercel.app/",
+        "logo": "https://ai-dtg-website-pd7lhzvqy-glec-incs-projects.vercel.app/assets/hardware/beetle_x31_1080.jpg",
+        "description": "World-leading AI transformation platform for commercial trucks",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "contact@glec.io",
+            "contactType": "Sales",
+            "availableLanguage": ["English", "Chinese", "Korean"]
+        },
+        "sameAs": [
+            "https://www.linkedin.com/company/glec-ai",
+            "https://twitter.com/GLEC_AI"
+        ],
+        "offers": {
+            "@type": "Offer",
+            "name": "AI DTG Platform",
+            "description": "AI transformation solution for commercial trucks"
+        }
+    }
+    </script>
+    
+    <!-- Product Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "GLEC AI DTG",
+        "description": "Advanced AI transformation platform for commercial trucks with real-time monitoring and carbon reduction",
+        "brand": {
+            "@type": "Brand",
+            "name": "GLEC"
+        },
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "150"
+        }
+    }
+    </script>
+    
+    <!-- Event Schema for CES 2026 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "GLEC at CES 2026",
+        "startDate": "2026-01-06",
+        "endDate": "2026-01-09",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": {
+            "@type": "Place",
+            "name": "Las Vegas Convention Center",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Las Vegas",
+                "addressRegion": "NV",
+                "addressCountry": "US"
+            }
+        },
+        "organizer": {
+            "@type": "Organization",
+            "name": "GLEC Inc.",
+            "url": "https://ai-dtg-website-pd7lhzvqy-glec-incs-projects.vercel.app/"
+        },
+        "description": "Experience GLEC's revolutionary AI DTG platform at CES 2026"
+    }
+    </script>
+    
+    <!-- Core Web Vitals Optimization -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#00ffff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+    <!-- Premium Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Inline Critical CSS for Maximum Performance -->
+    <style>
+        /* CSS Variables - Cyberpunk Theme */
+        :root {
+            --glec-black: #000000;
+            --glec-dark: #0a0a0a;
+            --glec-darker: #050505;
+            --glec-cyan: #00ffff;
+            --glec-magenta: #ff00ff;
+            --glec-yellow: #ffff00;
+            --glec-neon-blue: #00f3ff;
+            --glec-neon-pink: #ff0099;
+            --glec-neon-green: #00ff88;
+            --glec-white: #ffffff;
+            --glec-gray-100: #f0f0f0;
+            --glec-gray-200: #e0e0e0;
+            --glec-gray-300: #b0b0b0;
+            --glec-gray-400: #808080;
+            --glec-gray-500: #505050;
+            --glec-gray-600: #303030;
+            --glec-gray-700: #202020;
+            --glec-gray-800: #151515;
+            --glec-gray-900: #0f0f0f;
+            
+            /* Gradient Systems */
+            --glec-gradient-cyber: linear-gradient(135deg, #00ffff 0%, #ff00ff 50%, #ffff00 100%);
+            --glec-gradient-neon: linear-gradient(135deg, #00f3ff 0%, #ff0099 100%);
+            --glec-gradient-dark: linear-gradient(180deg, #000000 0%, #0a0a0a 50%, #000000 100%);
+            --glec-gradient-glow: radial-gradient(circle, rgba(0, 255, 255, 0.3) 0%, transparent 70%);
+            
+            /* Typography */
+            --font-display: 'Orbitron', sans-serif;
+            --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            
+            /* Spacing */
+            --space-xs: 0.25rem;
+            --space-sm: 0.5rem;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            --space-3xl: 4rem;
+            --space-4xl: 6rem;
+            --space-5xl: 8rem;
+            
+            /* Animation */
+            --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+            --ease-in-out-expo: cubic-bezier(0.87, 0, 0.13, 1);
+            --duration-fast: 200ms;
+            --duration-normal: 400ms;
+            --duration-slow: 600ms;
+            --duration-slower: 1000ms;
+        }
+        
+        /* Global Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        body {
+            font-family: var(--font-body);
+            background: var(--glec-black);
+            color: var(--glec-white);
+            line-height: 1.6;
+            overflow-x: hidden;
+            position: relative;
+        }
+        
+        /* Cyberpunk Background Effects */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(0, 255, 255, 0.03) 2px,
+                    rgba(0, 255, 255, 0.03) 4px
+                ),
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255, 0, 255, 0.03) 2px,
+                    rgba(255, 0, 255, 0.03) 4px
+                );
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        /* Navigation Bar */
+        .nav-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 9998;
+            background: linear-gradient(180deg, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.8) 100%);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+            transition: all var(--duration-normal) var(--ease-out-expo);
+        }
+        
+        .nav-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            text-decoration: none;
+        }
+        
+        .logo-text {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            font-weight: 900;
+            background: var(--glec-gradient-cyber);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            position: relative;
+        }
+        
+        .logo-text::after {
+            content: 'AI DTG SOLUTIONS';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            font-size: 0.6rem;
+            letter-spacing: 4px;
+            color: var(--glec-cyan);
+            opacity: 0.8;
+        }
+        
+        .nav-menu {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-link {
+            color: var(--glec-gray-300);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            transition: all var(--duration-fast) var(--ease-out-expo);
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--glec-gradient-neon);
+            transition: width var(--duration-normal) var(--ease-out-expo);
+        }
+        
+        .nav-link:hover {
+            color: var(--glec-cyan);
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        /* Language Selector */
+        .language-selector {
+            position: relative;
+            margin-left: 2rem;
+        }
+        
+        /* Debug styles - remove after testing */
+        .language-selector:hover .language-dropdown {
+            opacity: 1 !important;
+            visibility: visible !important;
+            transform: translateY(0) !important;
+        }
+        
+        /* Ensure dropdown items are clickable */
+        .language-option {
+            pointer-events: all !important;
+            position: relative;
+            z-index: 10000;
+        }
+        
+        .language-button {
+            background: transparent;
+            border: 1px solid var(--glec-cyan);
+            color: var(--glec-cyan);
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all var(--duration-fast) var(--ease-out-expo);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .language-button:hover {
+            background: rgba(0, 255, 255, 0.1);
+            box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+        }
+        
+        .language-dropdown {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background: rgba(0, 0, 0, 0.95);
+            border: 1px solid var(--glec-cyan);
+            border-radius: 5px;
+            min-width: 120px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all var(--duration-normal) var(--ease-out-expo);
+            backdrop-filter: blur(20px);
+            z-index: 9999;
+            box-shadow: 0 10px 30px rgba(0, 255, 255, 0.3);
+        }
+        
+        .language-dropdown.active {
+            opacity: 1 !important;
+            visibility: visible !important;
+            transform: translateY(0) !important;
+            display: block !important;
+        }
+        
+        .language-option {
+            padding: 0.75rem 1rem;
+            color: var(--glec-gray-300);
+            cursor: pointer;
+            transition: all var(--duration-fast) var(--ease-out-expo);
+            border-bottom: 1px solid rgba(0, 255, 255, 0.1);
+            display: block;
+            width: 100%;
+            text-align: left;
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+        
+        .language-option:last-child {
+            border-bottom: none;
+        }
+        
+        .language-option:hover {
+            background: rgba(0, 255, 255, 0.1);
+            color: var(--glec-cyan);
+        }
+        
+        .language-option.active {
+            background: rgba(0, 255, 255, 0.2);
+            color: var(--glec-cyan);
+        }
+        
+        /* Hero Section with Cyberpunk Video */
+        .hero-section {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .hero-video-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+        
+        .hero-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.4) contrast(1.2) saturate(1.3);
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.4) 100%);
+            z-index: 2;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 3;
+            text-align: center;
+            padding: 2rem;
+            max-width: 1200px;
+            animation: heroFadeIn 1.5s var(--ease-out-expo);
+        }
+        
+        @keyframes heroFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 8vw, 5rem);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        
+        .glowing-text {
+            background: linear-gradient(135deg, #00ffff, #ff00ff, #ffff00, #00ffff);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: glowingGradient 3s ease infinite;
+            filter: drop-shadow(0 0 20px rgba(0, 255, 255, 0.5));
+        }
+        
+        @keyframes glowingGradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(1rem, 3vw, 1.5rem);
+            color: var(--glec-gray-200);
+            margin-bottom: 2rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        
+        .hero-description {
+            font-size: 1.1rem;
+            color: var(--glec-gray-300);
+            margin-bottom: 3rem;
+            line-height: 1.8;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 1rem 2.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: none;
+            cursor: pointer;
+            transition: all var(--duration-normal) var(--ease-out-expo);
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--glec-magenta), var(--glec-neon-pink));
+            color: var(--glec-white);
+            box-shadow: 0 0 30px rgba(255, 0, 153, 0.5);
+            border: 2px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: var(--glec-gradient-cyber);
+            border-radius: inherit;
+            z-index: -1;
+            opacity: 0;
+            transition: opacity var(--duration-normal) var(--ease-out-expo);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 50px rgba(255, 0, 153, 0.8), 0 0 100px rgba(0, 255, 255, 0.4);
+            color: var(--glec-white);
+        }
+        
+        .btn-primary:hover::before {
+            opacity: 1;
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--glec-white);
+            border: 2px solid var(--glec-neon-pink);
+            box-shadow: 0 0 20px rgba(255, 0, 153, 0.3);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--glec-neon-pink);
+            color: var(--glec-white);
+            transform: translateY(-2px);
+            box-shadow: 0 0 30px rgba(255, 0, 153, 0.5);
+        }
+        
+        /* AI Transformation Section */
+        .transformation-section {
+            padding: var(--space-5xl) var(--space-xl);
+            position: relative;
+            background: linear-gradient(180deg, var(--glec-black) 0%, var(--glec-darker) 100%);
+        }
+        
+        .section-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: var(--space-3xl);
+            position: relative;
+        }
+        
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: var(--glec-cyan);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 1rem;
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--glec-cyan);
+            background: rgba(0, 255, 255, 0.1);
+        }
+        
+        .section-title {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: var(--glec-gradient-neon);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .section-description {
+            font-size: 1.2rem;
+            color: var(--glec-gray-300);
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+        
+        /* Transformation Video Container */
+        .transformation-video-container {
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto var(--space-4xl);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 0 50px rgba(0, 255, 255, 0.3);
+            background: var(--glec-gradient-dark);
+        }
+        
+        /* DTG Section Video - Smaller Size */
+        .dtg-section .transformation-video-container {
+            max-width: 600px;
+            margin: 0 auto var(--space-3xl);
+        }
+        
+        .transformation-video {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+        
+        /* DTG Video - Reduced Asset Size */
+        .dtg-section .transformation-video {
+            width: 400px !important;
+            max-width: 400px !important;
+            margin: 0 auto;
+            display: block;
+        }
+        
+        .dtg-video {
+            width: 400px !important;
+            max-width: 400px !important;
+            margin: 0 auto !important;
+            display: block !important;
+        }
+        
+        /* Transformation Features Grid */
+        .transformation-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--space-2xl);
+            margin-top: var(--space-4xl);
+        }
+        
+        .feature-card {
+            background: linear-gradient(135deg, rgba(0, 255, 255, 0.1) 0%, rgba(255, 0, 255, 0.1) 100%);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            border-radius: 15px;
+            padding: var(--space-2xl);
+            position: relative;
+            overflow: hidden;
+            transition: all var(--duration-normal) var(--ease-out-expo);
+        }
+        
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(0, 255, 255, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity var(--duration-slow) var(--ease-out-expo);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(0, 255, 255, 0.3);
+        }
+        
+        .feature-card:hover::before {
+            opacity: 1;
+        }
+        
+        
+        .feature-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: var(--space-lg);
+            background: var(--glec-gradient-cyber);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+        }
+        
+        .feature-description {
+            color: var(--glec-gray-300);
+            line-height: 1.8;
+        }
+        
+        /* GLEC AI DTG Section */
+        .dtg-section {
+            padding: var(--space-5xl) var(--space-xl);
+            background: var(--glec-black);
+            position: relative;
+        }
+        
+        /* GLEC AI Dashboard Section */
+        .dashboard-section {
+            padding: var(--space-5xl) var(--space-xl);
+            background: linear-gradient(180deg, var(--glec-darker) 0%, var(--glec-black) 100%);
+            position: relative;
+        }
+        
+        /* Call to Action Section */
+        .cta-section {
+            padding: var(--space-5xl) var(--space-xl);
+            background: linear-gradient(135deg, var(--glec-black) 0%, var(--glec-darker) 50%, var(--glec-black) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, rgba(0, 255, 255, 0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        
+        .cta-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .cta-title {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: var(--space-lg);
+            background: var(--glec-gradient-cyber);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .cta-description {
+            font-size: 1.3rem;
+            color: var(--glec-gray-200);
+            margin-bottom: var(--space-3xl);
+            line-height: 1.6;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: var(--space-xl);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .cta-btn {
+            padding: 1.2rem 3rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border: none;
+            cursor: pointer;
+            transition: all var(--duration-normal) var(--ease-out-expo);
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 8px;
+        }
+        
+        .cta-btn-primary {
+            background: linear-gradient(135deg, var(--glec-neon-pink), var(--glec-magenta));
+            color: var(--glec-white);
+            box-shadow: 0 0 40px rgba(255, 0, 153, 0.5);
+        }
+        
+        .cta-btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 60px rgba(255, 0, 153, 0.8), 0 10px 40px rgba(255, 0, 153, 0.3);
+        }
+        
+        .cta-btn-secondary {
+            background: transparent;
+            color: var(--glec-cyan);
+            border: 2px solid var(--glec-cyan);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+        }
+        
+        .cta-btn-secondary:hover {
+            background: var(--glec-cyan);
+            color: var(--glec-black);
+            transform: translateY(-3px);
+            box-shadow: 0 0 50px rgba(0, 255, 255, 0.6), 0 10px 30px rgba(0, 255, 255, 0.2);
+        }
+
+        /* CES 2026 Section */
+        .ces-section {
+            padding: var(--space-5xl) var(--space-xl);
+            background: linear-gradient(135deg, var(--glec-darker) 0%, var(--glec-black) 50%, var(--glec-darker) 100%);
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        .ces-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, rgba(255, 0, 153, 0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        
+        .ces-content {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .ces-logo {
+            width: 300px;
+            height: auto;
+            margin: 0 auto var(--space-xl);
+            display: block;
+            filter: drop-shadow(0 0 30px rgba(255, 0, 153, 0.8));
+            background: linear-gradient(135deg, rgba(255, 0, 153, 0.1), rgba(0, 255, 255, 0.1));
+            padding: var(--space-lg);
+            border-radius: var(--border-radius-xl);
+            border: 2px solid rgba(0, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+            animation: ces-glow 3s ease-in-out infinite alternate;
+        }
+        
+        @keyframes ces-glow {
+            from {
+                filter: drop-shadow(0 0 30px rgba(255, 0, 153, 0.8));
+                border-color: rgba(0, 255, 255, 0.3);
+            }
+            to {
+                filter: drop-shadow(0 0 50px rgba(0, 255, 255, 0.8));
+                border-color: rgba(255, 0, 153, 0.5);
+            }
+        }
+        
+        .ces-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: var(--space-lg);
+            background: linear-gradient(135deg, var(--glec-neon-pink), var(--glec-cyan), var(--glec-yellow));
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradient-shift 3s ease-in-out infinite;
+        }
+        
+        .ces-subtitle {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--glec-cyan);
+            margin-bottom: var(--space-md);
+        }
+        
+        .ces-description {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: var(--glec-light-gray);
+            margin-bottom: var(--space-xl);
+        }
+        
+        .ces-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--space-lg);
+            margin-top: var(--space-xl);
+        }
+        
+        .ces-info-item {
+            background: rgba(0, 255, 255, 0.1);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            border-radius: var(--border-radius-lg);
+            padding: var(--space-lg);
+            backdrop-filter: blur(10px);
+        }
+        
+        .ces-info-label {
+            font-size: 0.9rem;
+            color: var(--glec-cyan);
+            font-weight: 600;
+            margin-bottom: var(--space-xs);
+        }
+        
+        .ces-info-value {
+            font-size: 1.1rem;
+            color: var(--glec-white);
+            font-weight: 500;
+        }
+        
+        /* CES 2026 Invitation Section */
+        .ces-invitation-section {
+            padding: var(--space-4xl) var(--space-xl);
+            background: linear-gradient(135deg, var(--glec-black) 0%, var(--glec-darker) 30%, var(--glec-black) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .ces-invitation-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 30% 70%, rgba(0, 255, 255, 0.15) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 30%, rgba(255, 0, 153, 0.15) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        .ces-invitation-content {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .ces-invitation-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: var(--space-lg);
+            background: linear-gradient(135deg, var(--glec-cyan), var(--glec-neon-pink), var(--glec-yellow));
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradient-shift 4s ease-in-out infinite;
+        }
+        
+        .ces-invitation-form {
+            background: rgba(0, 255, 255, 0.05);
+            border: 2px solid rgba(0, 255, 255, 0.3);
+            border-radius: var(--border-radius-xl);
+            padding: var(--space-2xl);
+            backdrop-filter: blur(15px);
+            box-shadow: 0 20px 60px rgba(0, 255, 255, 0.1);
+        }
+        
+        .ces-form-group {
+            margin-bottom: var(--space-lg);
+        }
+        
+        .ces-form-label {
+            display: block;
+            font-size: 1rem;
+            color: var(--glec-cyan);
+            font-weight: 600;
+            margin-bottom: var(--space-sm);
+        }
+        
+        .ces-form-input {
+            width: 100%;
+            padding: var(--space-md) var(--space-lg);
+            background: rgba(0, 0, 0, 0.6);
+            border: 2px solid rgba(0, 255, 255, 0.3);
+            border-radius: var(--border-radius-lg);
+            color: var(--glec-white);
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .ces-form-input:focus {
+            outline: none;
+            border-color: var(--glec-cyan);
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+            background: rgba(0, 0, 0, 0.8);
+        }
+        
+        .ces-form-input::placeholder {
+            color: var(--glec-light-gray);
+        }
+        
+        .ces-submit-btn {
+            width: 100%;
+            padding: var(--space-md) var(--space-xl);
+            background: linear-gradient(135deg, var(--glec-neon-pink), var(--glec-magenta));
+            border: none;
+            border-radius: var(--border-radius-lg);
+            color: var(--glec-white);
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .ces-submit-btn:hover {
+            background: linear-gradient(135deg, var(--glec-magenta), var(--glec-neon-pink));
+            transform: translateY(-3px);
+            box-shadow: 0 0 30px rgba(255, 0, 153, 0.6);
+        }
+        
+        /* Popup Modal */
+        .ces-popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+        
+        .ces-popup-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: linear-gradient(135deg, var(--glec-darker), var(--glec-black));
+            border: 2px solid var(--glec-cyan);
+            border-radius: var(--border-radius-xl);
+            padding: var(--space-2xl);
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 255, 255, 0.3);
+        }
+        
+        .ces-popup-title {
+            font-size: 1.5rem;
+            color: var(--glec-cyan);
+            font-weight: 700;
+            margin-bottom: var(--space-md);
+        }
+        
+        .ces-popup-message {
+            color: var(--glec-light-gray);
+            margin-bottom: var(--space-lg);
+            line-height: 1.6;
+        }
+        
+        .ces-popup-close {
+            background: linear-gradient(135deg, var(--glec-cyan), var(--glec-neon-cyan));
+            border: none;
+            border-radius: var(--border-radius-md);
+            color: var(--glec-black);
+            padding: var(--space-sm) var(--space-xl);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .ces-popup-close:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+        }
+
+        /* Contact Form Popup Styles */
+        .contact-popup {
+            max-width: 500px;
+            width: 90%;
+        }
+
+        .contact-popup h3 {
+            color: var(--glec-cyan);
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            margin-bottom: var(--space-lg);
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .form-group {
+            margin-bottom: var(--space-lg);
+        }
+
+        .form-group label {
+            display: block;
+            color: var(--glec-white);
+            font-weight: 600;
+            margin-bottom: var(--space-sm);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: var(--space-md);
+            background: rgba(0, 0, 0, 0.6);
+            border: 2px solid rgba(0, 255, 255, 0.3);
+            border-radius: var(--border-radius-lg);
+            color: var(--glec-white);
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--glec-cyan);
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .form-group input::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        /* Technology Section */
+        .technology-section {
+            padding: var(--space-3xl) var(--space-xl);
+            background: linear-gradient(135deg, rgba(0, 255, 255, 0.05) 0%, rgba(255, 0, 255, 0.05) 100%);
+            position: relative;
+        }
+        
+        .technology-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--glec-cyan), transparent);
+        }
+        
+        .tech-block {
+            margin-top: var(--space-3xl);
+            padding: var(--space-2xl);
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            border-radius: var(--border-radius-xl);
+            backdrop-filter: blur(10px);
+        }
+        
+        .tech-video-container {
+            position: relative;
+            margin: var(--space-2xl) auto;
+            width: 800px;
+            max-width: 100%;
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .tech-video {
+            width: 600px;
+            max-width: 100%;
+            height: auto;
+            background: #000;
+            border-radius: var(--border-radius-lg);
+            display: block;
+        }
+        
+        .video-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+            padding: var(--space-xl);
+            color: var(--glec-white);
+            pointer-events: none;
+        }
+        
+        .video-overlay h4 {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            color: var(--glec-cyan);
+            margin-bottom: var(--space-sm);
+        }
+        
+        .video-overlay p {
+            color: var(--glec-light-gray);
+            margin: 0;
+            font-size: 0.95rem;
+        }
+        
+        .tech-video-container:hover {
+            border-color: var(--glec-cyan);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+        }
+        
+        .tech-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--space-2xl);
+            flex-wrap: wrap;
+            gap: var(--space-lg);
+        }
+        
+        .tech-title {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--glec-cyan), var(--glec-magenta));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .tech-badge {
+            padding: var(--space-sm) var(--space-lg);
+            background: linear-gradient(135deg, var(--glec-neon-blue), var(--glec-neon-pink));
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--space-xl);
+            margin-bottom: var(--space-2xl);
+        }
+        
+        .tech-card {
+            padding: var(--space-xl);
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(0, 255, 255, 0.1);
+            border-radius: var(--border-radius-lg);
+            transition: all 0.3s ease;
+        }
+        
+        .tech-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--glec-cyan);
+            box-shadow: 0 10px 30px rgba(0, 255, 255, 0.3);
+        }
+        
+        .tech-icon {
+            font-size: 2.5rem;
+            margin-bottom: var(--space-md);
+        }
+        
+        .tech-card h4 {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            color: var(--glec-cyan);
+            margin-bottom: var(--space-md);
+        }
+        
+        .tech-card p {
+            color: var(--glec-light-gray);
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+        
+        .tech-stats {
+            display: flex;
+            justify-content: space-around;
+            padding: var(--space-xl);
+            background: rgba(0, 255, 255, 0.05);
+            border-radius: var(--border-radius-lg);
+            flex-wrap: wrap;
+            gap: var(--space-xl);
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            display: block;
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--glec-cyan), var(--glec-yellow));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            display: block;
+            margin-top: var(--space-sm);
+            color: var(--glec-light-gray);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .tech-integration {
+            padding: var(--space-xl);
+            background: linear-gradient(135deg, rgba(0, 255, 255, 0.1), rgba(255, 0, 255, 0.1));
+            border-radius: var(--border-radius-lg);
+            border-left: 4px solid var(--glec-cyan);
+        }
+        
+        .tech-integration h4 {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            color: var(--glec-yellow);
+            margin-bottom: var(--space-md);
+        }
+        
+        .tech-integration p {
+            color: var(--glec-light-gray);
+            line-height: 1.8;
+        }
+        
+        @media (max-width: 768px) {
+            .tech-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .tech-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .tech-stats {
+                flex-direction: column;
+            }
+            
+            .tech-video {
+                width: 100%;
+                height: auto;
+            }
+            
+            .tech-video-container {
+                margin: var(--space-lg) auto;
+                max-width: 100%;
+            }
+            
+            .video-overlay {
+                padding: var(--space-lg);
+            }
+            
+            .video-overlay h4 {
+                font-size: 1.1rem;
+            }
+        }
+        
+        /* Footer */
+        .footer {
+            padding: var(--space-3xl) var(--space-xl);
+            background: linear-gradient(180deg, var(--glec-darker) 0%, var(--glec-black) 100%);
+            border-top: 1px solid rgba(0, 255, 255, 0.2);
+        }
+        
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .footer-logo {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            font-weight: 900;
+            background: var(--glec-gradient-cyber);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: var(--space-lg);
+        }
+        
+        .footer-text {
+            color: var(--glec-gray-400);
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+            }
+            
+            .hero-title {
+                font-size: 2rem;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .transformation-features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="nav-container" id="navbar">
+        <div class="nav-content">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">GLEC</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link" data-translate="nav_home">Home</a></li>
+                <li><a href="#transformation" class="nav-link" data-translate="nav_transformation">AI Transformation</a></li>
+                <li><a href="#ai-dtg" class="nav-link" data-translate="nav_dtg">AI DTG</a></li>
+                <li><a href="#ai-dashboard" class="nav-link" data-translate="nav_dashboard">AI Dashboard</a></li>
+                <li><a href="#cta" class="nav-link" data-translate="nav_contact">Contact</a></li>
+                <li><a href="#ces2026" class="nav-link" data-translate="nav_ces2026">CES 2026</a></li>
+            </ul>
+            
+            <!-- Language Selector -->
+            <div class="language-selector">
+                <button class="language-button" id="languageButton" onclick="toggleLanguageDropdown()">
+                    <span id="currentLanguage">English</span>
+                    <span>▼</span>
+                </button>
+                <div class="language-dropdown" id="languageDropdown">
+                    <div class="language-option active">English</div>
+                    <div class="language-option" onclick="window.location.href='index-zh.html'">中文</div>
+                    <div class="language-option" onclick="window.location.href='index-ko.html'">한국어</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section with Cyberpunk Video -->
+    <section class="hero-section" id="home">
+        <div class="hero-video-container">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="assets/videos/KakaoTalk_20250814_145521290.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="glowing-text">GLEC AI DTG</span>
+            </h1>
+            <p class="hero-subtitle" data-translate="hero_subtitle">World-Class AI Transformation Platform</p>
+            <p class="hero-description" data-translate="hero_description">
+                World's leading integrated solution for transforming old freight trucks into advanced AI vehicles<br>
+                AI-based safety enhancement and international standard carbon measurement and reduction system
+            </p>
+            <div class="hero-buttons">
+                <a href="#ai-dtg" class="btn btn-primary" data-translate="btn_explore">Explore Products</a>
+                <a href="#transformation" class="btn btn-secondary" data-translate="btn_transformation">AI Transformation</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- AI Transformation Section -->
+    <section class="transformation-section" id="transformation">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label" data-translate="transformation_label">AI TRANSFORMATION</span>
+                <h2 class="section-title" data-translate="transformation_title">AI Transformation (AX) for Old Freight Trucks</h2>
+                <p class="section-description" data-translate="transformation_description">
+                    Upgrade existing freight trucks to smart vehicles with cutting-edge AI technology<br>
+                    Simultaneously achieve driver safety and environmental protection
+                </p>
+            </div>
+            
+            <!-- Transformation Video -->
+            <div class="transformation-video-container">
+                <video class="transformation-video" autoplay muted loop playsinline>
+                    <source src="assets/videos/KakaoTalk_20250814_145511097.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <!-- Transformation Features -->
+            <div class="transformation-features">
+                <div class="feature-card">
+                    <h3 class="feature-title" data-translate="safety_title">AI-Based Driver and Cargo Safety Enhancement</h3>
+                    <p class="feature-description" data-translate="safety_description">
+                        Detect driver fatigue, drowsiness, and distraction through real-time AI inference<br>
+                        and provide immediate alerts. Continuously monitor cargo status to<br>
+                        prevent accidents and ensure safe transportation.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3 class="feature-title" data-translate="carbon_title">AI-Based International Standard Carbon Measurement and Reduction</h3>
+                    <p class="feature-description" data-translate="carbon_description">
+                        Precise carbon emission measurement system complying with ISO 14064 international standards<br>
+                        Monitor real-time carbon emissions and maximize fuel efficiency through AI optimization<br>
+                        to effectively reduce carbon emissions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- GLEC AI DTG Section -->
+    <section class="dtg-section" id="ai-dtg">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label" data-translate="dtg_label">AI HARDWARE</span>
+                <h2 class="section-title" data-translate="dtg_title">GLEC AI DTG</h2>
+                <p class="section-description" data-translate="dtg_description">
+                    Next-generation AI digital tachograph that monitors and optimizes<br>
+                    driver safety and vehicle efficiency in real-time
+                </p>
+            </div>
+            
+            <!-- DTG Video -->
+            <div class="transformation-video-container" style="max-width: 600px; margin: 0 auto;">
+                <video class="transformation-video dtg-video" autoplay muted loop playsinline style="width: 400px !important; max-width: 400px !important; margin: 0 auto; display: block;">
+                    <source src="assets/videos/0819.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <!-- DTG Features -->
+            <div class="transformation-features">
+                <div class="feature-card">
+                    <h3 class="feature-title" data-translate="ai_inference_title">Real-time AI Inference System</h3>
+                    <p class="feature-description" data-translate="ai_inference_description">
+                        Immediate risk detection and response possible with high-precision sensors and edge AI computing.<br>
+                        Real-time analysis of driver status, road conditions, and cargo status<br>
+                        to prevent accidents and ensure safe operation.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3 class="feature-title" data-translate="5g_cloud_title">5G Connectivity & Cloud Integration</h3>
+                    <p class="feature-description" data-translate="5g_cloud_description">
+                        Transmit real-time data to the cloud through ultra-high-speed 5G network<br>
+                        and provide insights through big data analysis. Real-time integration with vehicle control center<br>
+                        enables immediate response.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- GLEC AI Dashboard Section -->
+    <section class="dashboard-section" id="ai-dashboard">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label" data-translate="dashboard_label">AI SOFTWARE</span>
+                <h2 class="section-title" data-translate="dashboard_title">GLEC AI Dashboard</h2>
+                <p class="section-description" data-translate="dashboard_description">
+                    Integrated AI dashboard system that visualizes and analyzes<br>
+                    vehicle operation data in real-time to provide optimal transportation efficiency
+                </p>
+            </div>
+            
+            <!-- Dashboard Video -->
+            <div class="transformation-video-container">
+                <video class="transformation-video dashboard-video" autoplay muted loop playsinline>
+                    <source src="assets/videos/화면 기록 2025-08-19 오후 11.41.20.mov" type="video/quicktime">
+                    <source src="assets/videos/화면 기록 2025-08-19 오후 11.41.20.mov" type="video/mp4">
+                </video>
+            </div>
+            
+            <!-- Dashboard Features -->
+            <div class="transformation-features">
+                <div class="feature-card">
+                    <h3 class="feature-title" data-translate="data_visualization_title">Real-time Data Visualization</h3>
+                    <p class="feature-description" data-translate="data_visualization_description">
+                        Intuitive interface allows drivers and managers to grasp all information at a glance.<br>
+                        Monitor and analyze all data including vehicle location, route, fuel consumption,<br>
+                        carbon emissions in real-time.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3 class="feature-title" data-translate="voice_agent_title">AI Voice Conversational Agent</h3>
+                    <p class="feature-description" data-translate="voice_agent_description">
+                        Real-time AI voice recognition and conversation system provides immediate emergency safety alerts<br>
+                        to drivers. Voice warnings during hazardous situations reduce accident rates by over 20%,<br>
+                        supporting safe driving through natural conversations with drivers.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Technology Section -->
+    <section class="technology-section" id="technology">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">CORE TECHNOLOGY</span>
+                <h2 class="section-title">Cutting-Edge AI & API Technology</h2>
+                <p class="section-description">
+                    World-leading AI technology and international standard carbon measurement API<br>
+                    Creating sustainable logistics through innovation
+                </p>
+            </div>
+            
+            <!-- GLEC AI Technology -->
+            <div class="tech-block">
+                <div class="tech-header">
+                    <h3 class="tech-title">GLEC AI - 20B LLM Real-time Inference Engine</h3>
+                    <span class="tech-badge">AI SAFETY</span>
+                </div>
+                
+                <!-- GLEC AI Demo Video -->
+                <div class="tech-video-container" style="width: 1000px; height: 1000px; max-width: 100%; margin: 20px auto; padding: 20px; box-sizing: border-box; display: flex; align-items: center; justify-content: center;">
+                    <video class="tech-video" style="width: 960px; height: 960px; max-width: 100%; max-height: 100%; object-fit: contain; display: block;" autoplay muted loop playsinline preload="auto" id="glecAiVideo">
+                        <source src="assets/videos/GLEC_AI_video.mov" type="video/quicktime">
+                        <source src="assets/videos/GLEC_AI_video.mov" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <h4>20B Parameter LLM</h4>
+                        <p>4-bit quantization for real-time inference with embedded weights from accident-prone area datasets (weather, time, location patterns)</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h4>Real-time Data Integration</h4>
+                        <p>CAN Protocol data, GPS tracking, live traffic incidents, and congestion information processed as real-time embedding weights</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h4>Vehicle Context Protocol (VCP)</h4>
+                        <p>Proprietary data integration standard for analog truck sensors, enabling extended embedding weights from legacy vehicle systems</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h4>Urgency-based Inference</h4>
+                        <p>Context-aware AI that prioritizes safety and carbon reduction with differential sensitivity, delivered through real-time voice agent</p>
+                    </div>
+                </div>
+                
+                <div class="tech-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">40%</span>
+                        <span class="stat-label">Accident Reduction</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">20B</span>
+                        <span class="stat-label">Parameters</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number"><100ms</span>
+                        <span class="stat-label">Response Time</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- GLEC API Technology -->
+            <div class="tech-block">
+                <div class="tech-header">
+                    <h3 class="tech-title">GLEC API - ISO-14083 Carbon Measurement Platform</h3>
+                    <span class="tech-badge">CARBON NEUTRAL</span>
+                </div>
+                
+                <!-- GLEC API Demo Video -->
+                <div class="tech-video-container" style="width: 1000px; height: 1000px; max-width: 100%; margin: 20px auto; padding: 20px; box-sizing: border-box; display: flex; align-items: center; justify-content: center;">
+                    <video class="tech-video" style="width: 960px; height: 960px; max-width: 100%; max-height: 100%; object-fit: contain; display: block;" autoplay muted loop playsinline preload="auto" id="glecApiVideo">
+                        <source src="assets/videos/GLEC_API_video.mov" type="video/quicktime">
+                        <source src="assets/videos/GLEC_API_video.mov" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <h4>ISO-14083 Standard</h4>
+                        <p>Complete API implementation of international freight carbon emission measurement standard for global compliance</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h4>Real-time Quantification</h4>
+                        <p>Instant carbon footprint calculation enabling eco-driving awareness and behavior modification for drivers</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h4>Supply Chain Reporting</h4>
+                        <p>Enterprise-grade carbon emission reporting for regulatory compliance and sustainability initiatives</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h4>Carbon Credit Infrastructure</h4>
+                        <p>Core platform for transport carbon credit issuance, enabling monetization of emission reductions</p>
+                    </div>
+                </div>
+                
+                <div class="tech-integration">
+                    <h4>Seamless DTG Integration</h4>
+                    <p>GLEC API works in perfect harmony with GLEC DTG hardware, creating a comprehensive ecosystem for sustainable logistics transformation. Real-time data from vehicles flows through our API, providing actionable insights for both drivers and fleet managers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call to Action Section -->
+    <section class="cta-section" id="cta">
+        <div class="cta-content">
+            <h2 class="cta-title">Ready to Transform Your Fleet?</h2>
+            <p class="cta-description">
+                Join the AI innovation in transportation. Experience world-class safety, efficiency, and environmental benefits with GLEC AI DTG solutions. Contact us today to start your digital transformation journey.
+            </p>
+            <div class="cta-buttons">
+                <button id="contactFormBtn" class="cta-btn cta-btn-primary">Get Started Today</button>
+                <a href="#demo" class="cta-btn cta-btn-secondary">Request Demo</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CES 2026 Section -->
+    <section class="ces-section" id="ces2026">
+        <div class="ces-content">
+            <!-- Enhanced CES 2026 Logo -->
+            <div class="ces-logo">
+                <svg viewBox="0 0 300 80" style="width: 100%; height: auto;">
+                    <defs>
+                        <linearGradient id="cesGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#FF0099;stop-opacity:1" />
+                            <stop offset="50%" style="stop-color:#00FFFF;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#FFFF00;stop-opacity:1" />
+                        </linearGradient>
+                        <filter id="glow">
+                            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                            <feMerge> 
+                                <feMergeNode in="coloredBlur"/>
+                                <feMergeNode in="SourceGraphic"/>
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <!-- Background -->
+                    <rect x="10" y="10" width="280" height="60" fill="rgba(0,0,0,0.8)" rx="12" stroke="url(#cesGradient)" stroke-width="2"/>
+                    <!-- Main CES Text -->
+                    <text x="150" y="45" font-family="Orbitron, Arial, sans-serif" font-size="36" font-weight="bold" 
+                          fill="url(#cesGradient)" text-anchor="middle" filter="url(#glow)">CES 2026</text>
+                    <!-- Subtitle -->
+                    <text x="150" y="60" font-family="Arial, sans-serif" font-size="10" font-weight="600"
+                          fill="#FFFFFF" text-anchor="middle" opacity="0.9">CONSUMER ELECTRONICS SHOW</text>
+                    <!-- Decorative elements -->
+                    <circle cx="30" cy="40" r="3" fill="#00FFFF" opacity="0.8"/>
+                    <circle cx="270" cy="40" r="3" fill="#FF0099" opacity="0.8"/>
+                    <rect x="25" y="20" width="250" height="1" fill="url(#cesGradient)" opacity="0.6"/>
+                    <rect x="25" y="59" width="250" height="1" fill="url(#cesGradient)" opacity="0.6"/>
+                </svg>
+            </div>
+            
+            <h2 class="ces-title">Meet Us at CES 2026</h2>
+            <p class="ces-subtitle">Experience the Future of AI Transportation</p>
+            <p class="ces-description">
+                Join GLEC at the world's most influential tech event. Discover our innovative AI DTG solutions 
+                and see how we're transforming the transportation industry with cutting-edge artificial intelligence.
+            </p>
+            
+            <div class="ces-info">
+                <div class="ces-info-item">
+                    <div class="ces-info-label">Dates</div>
+                    <div class="ces-info-value">January 6-9, 2026</div>
+                </div>
+                <div class="ces-info-item">
+                    <div class="ces-info-label">Location</div>
+                    <div class="ces-info-value">Las Vegas, Nevada</div>
+                </div>
+                <div class="ces-info-item">
+                    <div class="ces-info-label">Venue</div>
+                    <div class="ces-info-value">Eureka Hall</div>
+                </div>
+                <div class="ces-info-item">
+                    <div class="ces-info-label">Booth</div>
+                    <div class="ces-info-value">Visit Us Soon</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CES 2026 Invitation Section -->
+    <section class="ces-invitation-section">
+        <div class="ces-invitation-content">
+            <h2 class="ces-invitation-title">Get Your CES 2026 Invitation</h2>
+            
+            <form class="ces-invitation-form" id="cesInvitationForm">
+                <div class="ces-form-group">
+                    <label for="cesEmail" class="ces-form-label">Your Email Address</label>
+                    <input 
+                        type="email" 
+                        id="cesEmail" 
+                        name="email" 
+                        class="ces-form-input" 
+                        placeholder="Enter your email to receive CES 2026 invitation"
+                        required
+                    >
+                </div>
+                
+                <button type="submit" class="ces-submit-btn">
+                    Request Invitation
+                </button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- CES Popup Modal -->
+    <div class="ces-popup" id="cesPopup">
+        <div class="ces-popup-content">
+            <h3 class="ces-popup-title">Invitation Requested!</h3>
+            <p class="ces-popup-message">
+                Thank you for your interest in meeting GLEC at CES 2026. 
+                We'll send you the invitation details soon.
+            </p>
+            <button class="ces-popup-close" onclick="closeCesPopup()">Close</button>
+        </div>
+    </div>
+    
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">GLEC AI DTG SOLUTIONS</div>
+            <p class="footer-text">
+                © 2025 GLEC. All rights reserved. | Transforming Transportation with AI
+            </p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script>
+        // Multi-language Support
+        const translations = {
+            ko: {
+                nav_home: "Home",
+                nav_transformation: "AI Transformation",
+                nav_dtg: "AI DTG", 
+                nav_dashboard: "AI Dashboard",
+                hero_subtitle: "World-Class AI Transformation Platform",
+                hero_description: "노후 화물차를 첨단 AI 차량으로 변환하는 세계 최고의 통합 솔루션<br>AI 기반 안전 향상과 국제표준 탄소 측정 및 감축 시스템",
+                btn_explore: "Explore Products",
+                btn_transformation: "AI Transformation",
+                transformation_label: "AI TRANSFORMATION",
+                transformation_title: "노후 화물차의 AI Transformation (AX)",
+                transformation_description: "최첨단 AI 기술로 기존 화물차를 스마트 차량으로 업그레이드하여<br>운전자 안전과 환경 보호를 동시에 실현합니다",
+                safety_title: "AI 기반 운전자 및 화물 안전 향상",
+                safety_description: "실시간 AI 추론을 통해 운전자의 피로도, 졸음, 주의 산만을 감지하고<br>즉각적인 경고를 제공합니다. 화물 상태를 지속적으로 모니터링하여<br>사고를 예방하고 안전한 운송을 보장합니다.",
+                carbon_title: "AI 기반 국제표준 탄소 측정 및 감축",
+                carbon_description: "ISO 14064 국제표준을 준수하는 정밀한 탄소 배출량 측정 시스템으로<br>실시간 탄소 배출을 모니터링하고, AI 최적화를 통해 연료 효율을<br>극대화하여 탄소 배출을 효과적으로 감축합니다.",
+                dtg_label: "AI HARDWARE",
+                dtg_title: "GLEC AI DTG",
+                dtg_description: "차세대 AI 디지털운행기록장치로 운전자의 안전과 차량 효율성을<br>실시간으로 모니터링하고 최적화합니다",
+                ai_inference_title: "실시간 AI 추론 시스템",
+                ai_inference_description: "고정밀 센서와 엣지 AI 컴퓨팅으로 즉각적인 위험 감지와 대응이 가능합니다.<br>운전자의 상태, 도로 상황, 화물 상태를 실시간으로 분석하여<br>사고를 예방하고 안전한 운행을 보장합니다.",
+                "5g_cloud_title": "5G 연결 & 클라우드 통합",
+                "5g_cloud_description": "초고속 5G 네트워크를 통해 실시간 데이터를 클라우드로 전송하고<br>빅데이터 분석을 통한 인사이트를 제공합니다. 차량 관제 센터와<br>실시간으로 연동되어 즉각적인 대응이 가능합니다.",
+                dashboard_label: "AI SOFTWARE",
+                dashboard_title: "GLEC AI Dashboard",
+                dashboard_description: "통합 AI 대시보드 시스템으로 차량 운행 데이터를 실시간으로<br>시각화하고 분석하여 최적의 운송 효율을 제공합니다",
+                data_visualization_title: "실시간 데이터 시각화",
+                data_visualization_description: "직관적인 인터페이스로 운전자와 관리자가 모든 정보를 한눈에 파악할 수 있습니다.<br>차량 위치, 운행 경로, 연료 소비, 탄소 배출량 등 모든 데이터를<br>실시간으로 모니터링하고 분석합니다.",
+                voice_agent_title: "AI 음성 대화 에이전트",
+                voice_agent_description: "실시간 AI 음성 인식 및 대화 시스템으로 운전자에게 즉각적인 긴급 안전 경보를<br>제공합니다. 위험 상황 감지 시 음성으로 경고하여 사고율을 20% 이상 감소시키고,<br>운전자와의 자연스러운 대화를 통해 안전 운행을 지원합니다."
+            },
+            en: {
+                nav_home: "Home",
+                nav_transformation: "AI Transformation",
+                nav_dtg: "AI DTG", 
+                nav_dashboard: "AI Dashboard",
+                hero_subtitle: "World-Class AI Transformation Platform",
+                hero_description: "World's leading integrated solution for transforming old freight trucks into advanced AI vehicles<br>AI-based safety enhancement and international standard carbon measurement and reduction system",
+                btn_explore: "Explore Products",
+                btn_transformation: "AI Transformation",
+                transformation_label: "AI TRANSFORMATION",
+                transformation_title: "AI Transformation (AX) for Old Freight Trucks",
+                transformation_description: "Upgrade existing freight trucks to smart vehicles with cutting-edge AI technology<br>Simultaneously achieve driver safety and environmental protection",
+                safety_title: "AI-Based Driver and Cargo Safety Enhancement",
+                safety_description: "Detect driver fatigue, drowsiness, and distraction through real-time AI inference<br>and provide immediate alerts. Continuously monitor cargo status to<br>prevent accidents and ensure safe transportation.",
+                carbon_title: "AI-Based International Standard Carbon Measurement and Reduction",
+                carbon_description: "Precise carbon emission measurement system complying with ISO 14064 international standards<br>Monitor real-time carbon emissions and maximize fuel efficiency through AI optimization<br>to effectively reduce carbon emissions.",
+                dtg_label: "AI HARDWARE",
+                dtg_title: "GLEC AI DTG",
+                dtg_description: "Next-generation AI digital tachograph that monitors and optimizes<br>driver safety and vehicle efficiency in real-time",
+                ai_inference_title: "Real-time AI Inference System",
+                ai_inference_description: "Immediate risk detection and response possible with high-precision sensors and edge AI computing.<br>Real-time analysis of driver status, road conditions, and cargo status<br>to prevent accidents and ensure safe operation.",
+                "5g_cloud_title": "5G Connectivity & Cloud Integration",
+                "5g_cloud_description": "Transmit real-time data to the cloud through ultra-high-speed 5G network<br>and provide insights through big data analysis. Real-time integration with vehicle control center<br>enables immediate response.",
+                dashboard_label: "AI SOFTWARE",
+                dashboard_title: "GLEC AI Dashboard",
+                dashboard_description: "Integrated AI dashboard system that visualizes and analyzes<br>vehicle operation data in real-time to provide optimal transportation efficiency",
+                data_visualization_title: "Real-time Data Visualization",
+                data_visualization_description: "Intuitive interface allows drivers and managers to grasp all information at a glance.<br>Monitor and analyze all data including vehicle location, route, fuel consumption,<br>carbon emissions in real-time.",
+                voice_agent_title: "AI Voice Conversational Agent",
+                voice_agent_description: "Real-time AI voice recognition and conversation system provides immediate emergency safety alerts<br>to drivers. Voice warnings during hazardous situations reduce accident rates by over 20%,<br>supporting safe driving through natural conversations with drivers."
+            },
+            zh: {
+                nav_home: "主页",
+                nav_transformation: "AI 转换",
+                nav_dtg: "AI DTG", 
+                nav_dashboard: "AI 仪表板",
+                hero_subtitle: "世界级AI转型平台",
+                hero_description: "将老旧货车转换为先进AI车辆的世界领先综合解决方案<br>基于AI的安全提升和国际标准碳测量及减排系统",
+                btn_explore: "探索产品",
+                btn_transformation: "AI 转换",
+                transformation_label: "AI 转换",
+                transformation_title: "老旧货车的AI转换 (AX)",
+                transformation_description: "利用尖端AI技术将现有货车升级为智能车辆<br>同时实现驾驶员安全和环境保护",
+                safety_title: "基于AI的驾驶员和货物安全提升",
+                safety_description: "通过实时AI推理检测驾驶员疲劳、困倦和分心<br>并提供即时警报。持续监控货物状态<br>预防事故并确保安全运输。",
+                carbon_title: "基于AI的国际标准碳测量和减排",
+                carbon_description: "符合ISO 14064国际标准的精密碳排放测量系统<br>实时监控碳排放，通过AI优化最大化燃油效率<br>有效减少碳排放。",
+                dtg_label: "AI 硬件",
+                dtg_title: "GLEC AI DTG",
+                dtg_description: "下一代AI数字行车记录仪，实时监控和优化<br>驾驶员安全和车辆效率",
+                ai_inference_title: "实时AI推理系统",
+                ai_inference_description: "高精度传感器和边缘AI计算实现即时风险检测和响应。<br>实时分析驾驶员状态、道路状况和货物状态<br>预防事故并确保安全运行。",
+                "5g_cloud_title": "5G连接和云集成",
+                "5g_cloud_description": "通过超高速5G网络将实时数据传输到云端<br>并通过大数据分析提供洞察。与车辆控制中心<br>实时集成，实现即时响应。",
+                dashboard_label: "AI 软件",
+                dashboard_title: "GLEC AI 仪表板",
+                dashboard_description: "集成AI仪表板系统，实时可视化和分析<br>车辆运行数据，提供最佳运输效率",
+                data_visualization_title: "实时数据可视化",
+                data_visualization_description: "直观界面让驾驶员和管理员一目了然地掌握所有信息。<br>实时监控和分析包括车辆位置、路线、燃油消耗、<br>碳排放在内的所有数据。",
+                voice_agent_title: "AI语音对话代理",
+                voice_agent_description: "实时AI语音识别和对话系统为驾驶员提供即时紧急安全警报。<br>危险情况下的语音警告可将事故率降低20%以上，<br>通过与驾驶员的自然对话支持安全驾驶。"
+            }
+        };
+        
+        let currentLang = 'en';
+        
+        // Simple language selector - using window.onclick for global access
+        window.toggleLanguageDropdown = function() {
+            const dropdown = document.getElementById('languageDropdown');
+            dropdown.classList.toggle('active');
+            console.log('Dropdown toggled, active:', dropdown.classList.contains('active'));
+        };
+        
+        window.selectLanguage = function(lang, text) {
+            console.log('Language selected:', lang, text);
+            
+            // Update display
+            document.getElementById('currentLanguage').textContent = text;
+            currentLang = lang;
+            
+            // Update active states
+            document.querySelectorAll('.language-option').forEach(opt => {
+                opt.classList.remove('active');
+            });
+            document.querySelector(`[data-lang="${lang}"]`).classList.add('active');
+            
+            // Translate page
+            translatePage(lang);
+            
+            // Close dropdown
+            document.getElementById('languageDropdown').classList.remove('active');
+        };
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+            const selector = document.querySelector('.language-selector');
+            if (selector && !selector.contains(e.target)) {
+                document.getElementById('languageDropdown').classList.remove('active');
+            }
+        });
+        
+        // Translation function
+        function translatePage(lang) {
+            const elements = document.querySelectorAll('[data-translate]');
+            elements.forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (translations[lang] && translations[lang][key]) {
+                    element.innerHTML = translations[lang][key];
+                }
+            });
+        }
+        
+        // Auto-play all videos on page load
+        window.addEventListener('load', () => {
+            const allVideos = document.querySelectorAll('.transformation-video, .dtg-video, .dashboard-video');
+            allVideos.forEach(video => {
+                video.play().catch(function(error) {
+                    console.log('Auto-play was prevented:', error);
+                });
+            });
+        });
+        
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Navbar Scroll Effect
+        let lastScroll = 0;
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                navbar.style.background = 'rgba(0, 0, 0, 0.98)';
+                navbar.style.backdropFilter = 'blur(30px)';
+            } else {
+                navbar.style.background = 'linear-gradient(180deg, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.8) 100%)';
+                navbar.style.backdropFilter = 'blur(20px)';
+            }
+            
+            lastScroll = currentScroll;
+        });
+        
+        
+        // Intersection Observer for Animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all feature cards and product cards
+        document.querySelectorAll('.feature-card, .product-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'all 0.8s cubic-bezier(0.16, 1, 0.3, 1)';
+            observer.observe(card);
+        });
+        
+        // Auto-play transformation video when in viewport
+        const videoObserverOptions = {
+            threshold: 0.5,
+            rootMargin: '0px'
+        };
+        
+        const videoObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                const video = entry.target;
+                if (entry.isIntersecting) {
+                    video.play().catch(function(error) {
+                        console.log('Video auto-play prevented:', error);
+                    });
+                } else {
+                    video.pause();
+                }
+            });
+        }, videoObserverOptions);
+        
+        // Observe all videos for auto-play
+        const allVideos = document.querySelectorAll('.transformation-video, .dtg-video, .dashboard-video, .tech-video');
+        allVideos.forEach(video => {
+            videoObserver.observe(video);
+        });
+        
+        // Enhanced force autoplay for tech videos with debugging
+        function forceTechVideoAutoplay() {
+            const techVideos = document.querySelectorAll('#glecAiVideo, #glecApiVideo');
+            
+            techVideos.forEach((video, index) => {
+                if (video) {
+                    console.log(`Setting up tech video ${index + 1}:`, video.id);
+                    console.log('Video src:', video.querySelector('source')?.src);
+                    
+                    // Error handling
+                    video.addEventListener('error', (e) => {
+                        console.error(`Video ${video.id} error:`, e);
+                        console.log('Current source:', video.currentSrc);
+                        console.log('Network state:', video.networkState);
+                        console.log('Ready state:', video.readyState);
+                    });
+                    
+                    // Set video properties programmatically
+                    video.muted = true;
+                    video.loop = true;
+                    video.autoplay = true;
+                    video.playsInline = true;
+                    video.controls = true;
+                    video.preload = 'metadata';
+                    
+                    // Remove any loading issues
+                    video.addEventListener('loadstart', () => {
+                        console.log(`Video ${video.id} started loading`);
+                    });
+                    
+                    video.addEventListener('canplay', () => {
+                        console.log(`Video ${video.id} can play, attempting autoplay`);
+                        video.play().catch(e => console.log(`Canplay autoplay failed for ${video.id}:`, e));
+                    });
+                    
+                    video.addEventListener('error', (e) => {
+                        console.error(`Video ${video.id} error:`, e);
+                        console.log('Video sources:', video.querySelectorAll('source'));
+                    });
+                    
+                    // Multiple play attempts
+                    const tryPlay = async () => {
+                        try {
+                            video.muted = true;
+                            await video.play();
+                            console.log(`Successfully started playing ${video.id}`);
+                        } catch (error) {
+                            console.log(`Auto-play prevented for ${video.id}:`, error);
+                            
+                            // Try again in 500ms
+                            setTimeout(() => {
+                                video.play().catch(e => {
+                                    console.log(`Retry failed for ${video.id}:`, e);
+                                    // Set up user interaction fallback
+                                    setupUserInteractionFallback(video);
+                                });
+                            }, 500);
+                        }
+                    };
+                    
+                    // Setup user interaction fallback
+                    const setupUserInteractionFallback = (vid) => {
+                        const playOnInteraction = () => {
+                            vid.muted = true;
+                            vid.play().then(() => {
+                                console.log(`User interaction play success for ${vid.id}`);
+                            }).catch(e => console.log(`User interaction play failed for ${vid.id}:`, e));
+                            
+                            // Remove listeners after first success
+                            ['click', 'touchstart', 'keydown', 'scroll'].forEach(event => {
+                                document.removeEventListener(event, playOnInteraction);
+                            });
+                        };
+                        
+                        // Add multiple interaction listeners
+                        ['click', 'touchstart', 'keydown', 'scroll'].forEach(event => {
+                            document.addEventListener(event, playOnInteraction, { once: true });
+                        });
+                    };
+                    
+                    // Enhanced Intersection Observer
+                    const techVideoObserver = new IntersectionObserver((entries) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                const vid = entry.target;
+                                console.log(`Video ${vid.id} became visible, forcing play`);
+                                vid.muted = true;
+                                vid.play().catch(e => {
+                                    console.log(`Intersection play failed for ${vid.id}:`, e);
+                                    setupUserInteractionFallback(vid);
+                                });
+                            } else {
+                                // Pause when not visible to save bandwidth
+                                entry.target.pause();
+                            }
+                        });
+                    }, { threshold: 0.1, rootMargin: '50px' });
+                    
+                    techVideoObserver.observe(video);
+                    
+                    // Enhanced loop handling
+                    video.addEventListener('ended', () => {
+                        console.log(`Video ${video.id} ended, restarting`);
+                        video.currentTime = 0;
+                        video.play().catch(e => console.log(`Loop restart failed for ${video.id}:`, e));
+                    });
+                    
+                    // Initial play attempt
+                    if (video.readyState >= 3) { // HAVE_FUTURE_DATA
+                        tryPlay();
+                    } else {
+                        video.addEventListener('canplay', tryPlay, { once: true });
+                    }
+                }
+            });
+        }
+        
+        // Call the function when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', forceTechVideoAutoplay);
+        } else {
+            forceTechVideoAutoplay();
+        }
+        
+        // Parallax Effect for Hero Video
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const heroVideo = document.querySelector('.hero-video-container');
+            if (heroVideo && scrolled < window.innerHeight) {
+                heroVideo.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
+        
+        // Dynamic Text Glow Effect
+        const glowingText = document.querySelector('.glowing-text');
+        if (glowingText) {
+            setInterval(() => {
+                const hue = Math.random() * 360;
+                glowingText.style.filter = `drop-shadow(0 0 20px hsl(${hue}, 100%, 50%))`;
+            }, 3000);
+        }
+        
+        // Performance Optimization - Lazy Load Videos
+        const videos = document.querySelectorAll('video[data-src]');
+        const videoObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const video = entry.target;
+                    video.src = video.dataset.src;
+                    video.load();
+                    videoObserver.unobserve(video);
+                }
+            });
+        });
+        
+        videos.forEach(video => {
+            videoObserver.observe(video);
+        });
+        
+        // CES 2026 Invitation Form Handler
+        window.addEventListener('load', function() {
+            const cesForm = document.getElementById('cesInvitationForm');
+            const cesPopup = document.getElementById('cesPopup');
+            
+            if (cesForm && cesPopup) {
+                cesForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    console.log('Form submitted');
+                    
+                    const email = document.getElementById('cesEmail').value;
+                    console.log('Email:', email);
+                    
+                    if (email) {
+                        // Show success popup first
+                        console.log('Showing popup');
+                        cesPopup.style.display = 'block';
+                        
+                        // Create mailto link
+                        const subject = encodeURIComponent('CES 2026 Invitation Request from GLEC Website');
+                        const body = encodeURIComponent(`Hello GLEC Team,
+
+I would like to request an invitation to meet GLEC at CES 2026.
+
+My email address: ${email}
+Date requested: ${new Date().toLocaleDateString()}
+
+Please send me the details about your booth location and meeting schedule.
+
+Thank you!`);
+                        
+                        const mailtoLink = `mailto:contact@glec.io?subject=${subject}&body=${body}`;
+                        
+                        // Open mailto with delay
+                        setTimeout(() => {
+                            window.location.href = mailtoLink;
+                        }, 1000);
+                        
+                        // Reset form
+                        cesForm.reset();
+                    }
+                });
+            } else {
+                console.log('Form or popup not found');
+            }
+        });
+        
+        // Close popup function
+        function closeCesPopup() {
+            document.getElementById('cesPopup').style.display = 'none';
+        }
+        
+        // Close popup when clicking outside
+        document.getElementById('cesPopup').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeCesPopup();
+            }
+        });
+        
+        // Contact Form Functionality
+        function openContactPopup() {
+            document.getElementById('contactPopup').style.display = 'block';
+            console.log('Contact popup opened');
+        }
+
+        function closeContactPopup() {
+            document.getElementById('contactPopup').style.display = 'none';
+        }
+
+        // Contact Form Handler - Execute immediately since DOM is already loaded
+        (function() {
+            const contactForm = document.getElementById('contactForm');
+            const contactBtn = document.getElementById('contactFormBtn');
+            
+            if (contactBtn) {
+                console.log('Contact button found, adding event listener');
+                contactBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    console.log('Contact button clicked');
+                    openContactPopup();
+                });
+            } else {
+                console.log('Contact button not found');
+            }
+            
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const formData = {
+                        companyName: document.getElementById('companyName').value,
+                        contactName: document.getElementById('contactName').value,
+                        email: document.getElementById('email').value,
+                        truckCount: document.getElementById('truckCount').value,
+                        truckModel: document.getElementById('truckModel').value
+                    };
+                    
+                    const subject = encodeURIComponent('GLEC AI DTG Inquiry - ' + formData.companyName);
+                    const body = encodeURIComponent(
+                        'Dear GLEC Team,\n\n' +
+                        'I am interested in GLEC AI DTG solutions. Here are our company details:\n\n' +
+                        'Company: ' + formData.companyName + '\n' +
+                        'Contact Person: ' + formData.contactName + '\n' +
+                        'Email: ' + formData.email + '\n' +
+                        'Number of Trucks: ' + formData.truckCount + '\n' +
+                        'Main Truck Model: ' + formData.truckModel + '\n\n' +
+                        'Please contact us to discuss AI DTG transformation solutions for our fleet.\n\n' +
+                        'Best regards,\n' + formData.contactName
+                    );
+                    
+                    const mailtoLink = 'mailto:contact@glec.io?subject=' + subject + '&body=' + body;
+                    
+                    console.log('Sending email with data:', formData);
+                    closeContactPopup();
+                    window.location.href = mailtoLink;
+                });
+            }
+            
+            // Close popup when clicking outside
+            const contactPopup = document.getElementById('contactPopup');
+            if (contactPopup) {
+                contactPopup.addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        closeContactPopup();
+                    }
+                });
+            }
+        })();
+        
+    </script>
+    
+    <!-- Contact Form Popup -->
+    <div id="contactPopup" class="popup-overlay" style="display: none;">
+        <div class="popup-content contact-popup">
+            <button class="popup-close" onclick="closeContactPopup()">&times;</button>
+            <h3>Contact GLEC</h3>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="companyName">Company Name</label>
+                    <input type="text" id="companyName" name="companyName" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactName">Contact Person</label>
+                    <input type="text" id="contactName" name="contactName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="truckCount">Number of Trucks</label>
+                    <input type="number" id="truckCount" name="truckCount" min="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="truckModel">Main Truck Model</label>
+                    <input type="text" id="truckModel" name="truckModel" placeholder="e.g., Hyundai Mighty, Volvo FH" required>
+                </div>
+                <button type="submit" class="cta-btn cta-btn-primary">Send Email</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

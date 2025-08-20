@@ -121,7 +121,7 @@
     </script>
     
     <!-- Core Web Vitals Optimization -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Removed X-UA-Compatible as it's not needed for modern browsers -->
     <meta name="theme-color" content="#00ffff">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -132,6 +132,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="assets/videos/KakaoTalk_20250814_145521290.mp4" as="video" type="video/mp4">
+    <link rel="preload" href="assets/videos/KakaoTalk_20250814_145511097.mp4" as="video" type="video/mp4">
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/orbitron/v25/yMJWMIlzdpvBhQQL_Qq7dys.woff2" type="font/woff2" crossorigin="anonymous">
     
     <!-- Premium Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -248,6 +253,7 @@
             right: 0;
             z-index: 9998;
             background: linear-gradient(180deg, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.8) 100%);
+            -webkit-backdrop-filter: blur(20px);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             border-bottom: 1px solid rgba(0, 255, 255, 0.2);
@@ -385,6 +391,7 @@
             visibility: hidden;
             transform: translateY(-10px);
             transition: all var(--duration-normal) var(--ease-out-expo);
+            -webkit-backdrop-filter: blur(20px);
             backdrop-filter: blur(20px);
             z-index: 9999;
             box-shadow: 0 10px 30px rgba(0, 255, 255, 0.3);
@@ -855,6 +862,197 @@
             box-shadow: 0 0 50px rgba(0, 255, 255, 0.6), 0 10px 30px rgba(0, 255, 255, 0.2);
         }
 
+        /* Technology Section */
+        .technology-section {
+            padding: var(--space-3xl) var(--space-xl);
+            background: linear-gradient(135deg, rgba(0, 255, 255, 0.05) 0%, rgba(255, 0, 255, 0.05) 100%);
+            position: relative;
+        }
+        
+        .technology-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--glec-cyan), transparent);
+        }
+        
+        .tech-block {
+            margin-top: var(--space-3xl);
+            padding: var(--space-2xl);
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            border-radius: var(--border-radius-xl);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+        }
+        
+        .tech-video-container {
+            position: relative;
+            margin: var(--space-2xl) auto;
+            width: 800px;
+            max-width: 100%;
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .tech-video {
+            width: 600px;
+            max-width: 100%;
+            height: auto;
+            background: #000;
+            border-radius: var(--border-radius-lg);
+            display: block;
+        }
+        
+        .tech-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--space-2xl);
+            flex-wrap: wrap;
+            gap: var(--space-lg);
+        }
+        
+        .tech-title {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--glec-cyan), var(--glec-magenta));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .tech-badge {
+            padding: var(--space-sm) var(--space-lg);
+            background: linear-gradient(135deg, var(--glec-neon-blue), var(--glec-neon-pink));
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--space-xl);
+            margin-bottom: var(--space-2xl);
+        }
+        
+        .tech-card {
+            padding: var(--space-xl);
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(0, 255, 255, 0.1);
+            border-radius: var(--border-radius-lg);
+            transition: all 0.3s ease;
+        }
+        
+        .tech-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--glec-cyan);
+            box-shadow: 0 10px 30px rgba(0, 255, 255, 0.3);
+        }
+        
+        .tech-card h4 {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            color: var(--glec-cyan);
+            margin-bottom: var(--space-md);
+        }
+        
+        .tech-card p {
+            color: var(--glec-light-gray);
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+        
+        .tech-stats {
+            display: flex;
+            justify-content: space-around;
+            padding: var(--space-xl);
+            background: rgba(0, 255, 255, 0.05);
+            border-radius: var(--border-radius-lg);
+            flex-wrap: wrap;
+            gap: var(--space-xl);
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            display: block;
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--glec-cyan), var(--glec-yellow));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            display: block;
+            margin-top: var(--space-sm);
+            color: var(--glec-light-gray);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .tech-integration {
+            padding: var(--space-xl);
+            background: linear-gradient(135deg, rgba(0, 255, 255, 0.1), rgba(255, 0, 255, 0.1));
+            border-radius: var(--border-radius-lg);
+            border-left: 4px solid var(--glec-cyan);
+        }
+        
+        .tech-integration h4 {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            color: var(--glec-yellow);
+            margin-bottom: var(--space-md);
+        }
+        
+        .tech-integration p {
+            color: var(--glec-light-gray);
+            line-height: 1.8;
+        }
+        
+        @media (max-width: 768px) {
+            .tech-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .tech-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .tech-stats {
+                flex-direction: column;
+            }
+            
+            .tech-video {
+                width: 100%;
+                height: auto;
+            }
+            
+            .tech-video-container {
+                margin: var(--space-lg) auto;
+                max-width: 100%;
+            }
+        }
+
         /* CES 2026 Section */
         .ces-section {
             padding: var(--space-5xl) var(--space-xl);
@@ -931,6 +1129,7 @@
             border: 1px solid rgba(0, 255, 255, 0.3);
             border-radius: var(--border-radius-lg);
             padding: var(--space-lg);
+            -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
         }
         
@@ -1061,6 +1260,7 @@
             height: 100%;
             background: rgba(0, 0, 0, 0.8);
             z-index: 1000;
+            -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
         }
         
@@ -1227,6 +1427,7 @@
                 <li><a href="#transformation" class="nav-link">AI TRANSFORMATION</a></li>
                 <li><a href="#ai-dtg" class="nav-link">AI DTG</a></li>
                 <li><a href="#ai-dashboard" class="nav-link">AI 仪表板</a></li>
+                <li><a href="#technology" class="nav-link">CORE TECHNOLOGY</a></li>
                 <li><a href="#cta" class="nav-link">Contact</a></li>
                 <li><a href="#ces2026" class="nav-link">CES 2026</a></li>
             </ul>
@@ -1303,7 +1504,7 @@
                 <div class="feature-card">
                     <h3 class="feature-title">基于AI的国际标准碳测量和减排</h3>
                     <p class="feature-description">
-                        符合ISO 14064国际标准的精密碳排放测量系统<br>
+                        符合ISO-14083国际标准的精密碳排放测量系统<br>
                         实时监控碳排放，通过AI优化最大化燃料效率<br>
                         有效减少碳排放。
                     </p>
@@ -1316,7 +1517,7 @@
     <section class="dtg-section" id="ai-dtg">
         <div class="section-container">
             <div class="section-header">
-                <span class="section-label">AI HARDWARE</span>
+                <span class="section-label">AI 硬件</span>
                 <h2 class="section-title">GLEC AI DTG</h2>
                 <p class="section-description">
                     下一代AI数字行车记录仪，实时监控和优化<br>
@@ -1324,11 +1525,20 @@
                 </p>
             </div>
             
-            <!-- DTG Video -->
-            <div class="transformation-video-container" style="max-width: 600px; margin: 0 auto;">
-                <video class="transformation-video dtg-video" autoplay muted loop playsinline style="width: 400px !important; max-width: 400px !important; margin: 0 auto; display: block;">
-                    <source src="assets/videos/0819.mp4" type="video/mp4">
-                </video>
+            <!-- DTG Videos -->
+            <div style="display: flex; justify-content: center; gap: 20px; margin: 0 auto 3rem; flex-wrap: wrap;">
+                <!-- DTG Video 1 -->
+                <div class="transformation-video-container" style="width: 600px; height: 600px; max-width: 100%; padding: 0; box-sizing: border-box; display: flex; align-items: center; justify-content: center;">
+                    <video class="transformation-video dtg-video" autoplay muted loop playsinline style="width: 500px !important; height: 500px !important; max-width: none !important; max-height: none !important; object-fit: contain; display: block;">
+                        <source src="assets/videos/dtg1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <!-- DTG Video 2 -->
+                <div class="transformation-video-container" style="width: 600px; height: 600px; max-width: 100%; padding: 0; box-sizing: border-box; display: flex; align-items: center; justify-content: center;">
+                    <video class="transformation-video dtg-video" autoplay muted loop playsinline style="width: 500px !important; height: 500px !important; max-width: none !important; max-height: none !important; object-fit: contain; display: block;">
+                        <source src="assets/videos/dtg2.mp4?v=20250820" type="video/mp4">
+                    </video>
+                </div>
             </div>
             
             <!-- DTG Features -->
@@ -1343,9 +1553,9 @@
                 </div>
                 
                 <div class="feature-card">
-                    <h3 class="feature-title">5G连接和云集成</h3>
+                    <h3 class="feature-title">LTE连接和云集成</h3>
                     <p class="feature-description">
-                        通过超高速5G网络将实时数据传输到云端<br>
+                        通过成本效益高的LTE网络将实时数据传输到云端<br>
                         并通过大数据分析提供洞察。与车辆控制中心<br>
                         实时集成，实现即时响应。
                     </p>
@@ -1398,7 +1608,116 @@
     </section>
     
     <!-- Call to Action Section -->
-    <section class="cta-section" id="cta">
+    <section class="technology-section" id="technology">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">CORE TECHNOLOGY</span>
+                <h2 class="section-title">尖端AI和API技术</h2>
+                <p class="section-description">
+                    世界领先的AI技术和国际标准碳测量API<br>
+                    通过创新创造可持续物流
+                </p>
+            </div>
+            
+            <!-- GLEC AI Technology -->
+            <div class="tech-block">
+                <div class="tech-header">
+                    <h3 class="tech-title">GLEC AI - 20B LLM实时推理引擎</h3>
+                    <span class="tech-badge">AI SAFETY</span>
+                </div>
+                
+                <!-- GLEC AI Demo Video -->
+                <div class="tech-video-container" style="width: 700px; height: 700px; max-width: 100%; margin: 20px auto; padding: 20px; box-sizing: border-box; display: flex; align-items: center; justify-content: center;">
+                    <video class="tech-video" style="width: 700px; height: 700px; max-width: 100%; max-height: 100%; object-fit: contain; display: block;" autoplay muted loop playsinline preload="auto" id="glecAiVideo">
+                        <source src="assets/videos/GLEC_AI_video.mov" type="video/quicktime">
+                        <source src="assets/videos/GLEC_AI_video.mov" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <h4>20B参数LLM</h4>
+                        <p>利用事故多发区域数据集（天气、时间、位置模式）的嵌入权重进行4位量化的实时推理</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h4>实时数据集成</h4>
+                        <p>CAN协议数据、GPS跟踪、实时交通事故和拥堵信息作为实时嵌入权重处理</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h4>车辆上下文协议（VCP）</h4>
+                        <p>模拟卡车传感器的专有数据集成标准，启用传统车辆系统的扩展嵌入权重</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h4>基于紧急程度的推理</h4>
+                        <p>优先考虑安全和碳减排的差异化敏感度上下文感知AI，通过实时语音代理提供</p>
+                    </div>
+                </div>
+                
+                <div class="tech-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">40%</span>
+                        <span class="stat-label">事故减少</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">20B</span>
+                        <span class="stat-label">参数</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number"><100ms</span>
+                        <span class="stat-label">响应时间</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- GLEC API Technology -->
+            <div class="tech-block">
+                <div class="tech-header">
+                    <h3 class="tech-title">GLEC API - ISO-14083碳测量平台</h3>
+                    <span class="tech-badge">CARBON NEUTRAL</span>
+                </div>
+                
+                <!-- GLEC API Demo Video -->
+                <div class="tech-video-container" style="width: 700px; height: 700px; max-width: 100%; margin: 20px auto; padding: 20px; box-sizing: border-box; display: flex; align-items: center; justify-content: center;">
+                    <video class="tech-video" style="width: 700px; height: 700px; max-width: 100%; max-height: 100%; object-fit: contain; display: block;" autoplay muted loop playsinline preload="auto" id="glecApiVideo">
+                        <source src="assets/videos/GLEC_API_video.mov" type="video/quicktime">
+                        <source src="assets/videos/GLEC_API_video.mov" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <h4>ISO-14083标准</h4>
+                        <p>国际货运碳排放测量标准的完整API实现，确保全球合规</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h4>实时量化</h4>
+                        <p>即时碳足迹计算，实现驾驶员的环保驾驶意识和行为改变</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h4>供应链报告</h4>
+                        <p>监管合规和可持续发展倡议的企业级碳排放报告</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h4>碳信用基础设施</h4>
+                        <p>运输碳信用发行的核心平台，实现减排的货币化</p>
+                    </div>
+                </div>
+                
+                <div class="tech-integration">
+                    <h4>无缝DTG集成</h4>
+                    <p>GLEC API与GLEC DTG硬件完美协调，为可持续物流转型创建综合生态系统。来自车辆的实时数据通过我们的API流动，为驾驶员和车队经理提供可操作的见解。</p>
+                </div>
+            </div>
+        </div>
+    </section>     <section class="cta-section" id="cta">
         <div class="cta-content">
             <h2 class="cta-title">准备好转型您的车队了吗？</h2>
             <p class="cta-description">
@@ -1604,7 +1923,7 @@
                 safety_title: "基于AI的驾驶员和货物安全提升",
                 safety_description: "通过实时AI推理检测驾驶员疲劳、困倦和分心<br>并提供即时警报。持续监控货物状态<br>预防事故并确保安全运输。",
                 carbon_title: "基于AI的国际标准碳测量和减排",
-                carbon_description: "符合ISO 14064国际标准的精密碳排放测量系统<br>实时监控碳排放，通过AI优化最大化燃油效率<br>有效减少碳排放。",
+                carbon_description: "符合ISO-14083国际标准的精密碳排放测量系统<br>实时监控碳排放，通过AI优化最大化燃油效率<br>有效减少碳排放。",
                 dtg_label: "AI 硬件",
                 dtg_title: "GLEC AI DTG",
                 dtg_description: "下一代AI数字行车记录仪，实时监控和优化<br>驾驶员安全和车辆效率",
