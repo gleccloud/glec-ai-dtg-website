@@ -1200,6 +1200,52 @@
             backdrop-filter: blur(10px);
         }
         
+        .tech-video-container {
+            position: relative;
+            margin: var(--space-2xl) 0;
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+        }
+        
+        .tech-video {
+            width: 100%;
+            height: auto;
+            min-height: 300px;
+            background: #000;
+            border-radius: var(--border-radius-lg);
+        }
+        
+        .video-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+            padding: var(--space-xl);
+            color: var(--glec-white);
+            pointer-events: none;
+        }
+        
+        .video-overlay h4 {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            color: var(--glec-cyan);
+            margin-bottom: var(--space-sm);
+        }
+        
+        .video-overlay p {
+            color: var(--glec-light-gray);
+            margin: 0;
+            font-size: 0.95rem;
+        }
+        
+        .tech-video-container:hover {
+            border-color: var(--glec-cyan);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+        }
+        
         .tech-header {
             display: flex;
             justify-content: space-between;
@@ -1332,6 +1378,18 @@
             
             .tech-stats {
                 flex-direction: column;
+            }
+            
+            .tech-video {
+                min-height: 200px;
+            }
+            
+            .video-overlay {
+                padding: var(--space-lg);
+            }
+            
+            .video-overlay h4 {
+                font-size: 1.1rem;
             }
         }
         
@@ -1591,6 +1649,18 @@
                     <span class="tech-badge">AI SAFETY</span>
                 </div>
                 
+                <!-- GLEC AI Demo Video -->
+                <div class="tech-video-container">
+                    <video class="tech-video" controls muted playsinline>
+                        <source src="assets/videos/화면 기록 2025-08-19 오후 11.41.20.mov" type="video/mp4">
+                        <p>Your browser does not support the video tag.</p>
+                    </video>
+                    <div class="video-overlay">
+                        <h4>GLEC AI Live Demo</h4>
+                        <p>Real-time AI inference and voice interaction demonstration</p>
+                    </div>
+                </div>
+                
                 <div class="tech-grid">
                     <div class="tech-card">
                         <div class="tech-icon">🧠</div>
@@ -1638,6 +1708,18 @@
                 <div class="tech-header">
                     <h3 class="tech-title">GLEC API - ISO-14083 Carbon Measurement Platform</h3>
                     <span class="tech-badge">CARBON NEUTRAL</span>
+                </div>
+                
+                <!-- GLEC API Demo Video -->
+                <div class="tech-video-container">
+                    <video class="tech-video" controls muted playsinline>
+                        <source src="assets/videos/0819.mp4" type="video/mp4">
+                        <p>Your browser does not support the video tag.</p>
+                    </video>
+                    <div class="video-overlay">
+                        <h4>GLEC API Integration Demo</h4>
+                        <p>ISO-14083 carbon measurement and real-time analytics dashboard</p>
+                    </div>
                 </div>
                 
                 <div class="tech-grid">
