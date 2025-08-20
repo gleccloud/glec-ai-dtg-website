@@ -23,3 +23,4 @@ build/
 # Tokens
 github-token.txt
 vercel-token.txt
+.vercel

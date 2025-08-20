@@ -1,0 +1,41 @@
+# GLEC AI DTG Robots.txt
+# https://ai-dtg-website-pd7lhzvqy-glec-incs-projects.vercel.app/
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 0
+
+User-agent: Naverbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 0
+
+# Allow image crawlers
+User-agent: Googlebot-Image
+Allow: /assets/
+
+User-agent: Bingbot-Image
+Allow: /assets/
+
+# Sitemap location
+Sitemap: https://ai-dtg-website-pd7lhzvqy-glec-incs-projects.vercel.app/sitemap.xml
