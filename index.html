@@ -1202,19 +1202,24 @@
         
         .tech-video-container {
             position: relative;
-            margin: var(--space-2xl) 0;
+            margin: var(--space-2xl) auto;
+            max-width: 800px;
             border-radius: var(--border-radius-lg);
             overflow: hidden;
             background: rgba(0, 0, 0, 0.8);
             border: 1px solid rgba(0, 255, 255, 0.3);
+            display: flex;
+            justify-content: center;
         }
         
         .tech-video {
             width: 100%;
+            max-width: 800px;
             height: auto;
-            min-height: 300px;
+            aspect-ratio: 16 / 10;
             background: #000;
             border-radius: var(--border-radius-lg);
+            object-fit: contain;
         }
         
         .video-overlay {
@@ -1381,7 +1386,13 @@
             }
             
             .tech-video {
-                min-height: 200px;
+                aspect-ratio: 16 / 10;
+                max-width: 100%;
+            }
+            
+            .tech-video-container {
+                margin: var(--space-lg) auto;
+                max-width: 100%;
             }
             
             .video-overlay {
