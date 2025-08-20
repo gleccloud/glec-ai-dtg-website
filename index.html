@@ -1203,23 +1203,19 @@
         .tech-video-container {
             position: relative;
             margin: var(--space-2xl) auto;
-            max-width: 800px;
+            width: 100%;
+            max-width: 900px;
             border-radius: var(--border-radius-lg);
             overflow: hidden;
             background: rgba(0, 0, 0, 0.8);
             border: 1px solid rgba(0, 255, 255, 0.3);
-            display: flex;
-            justify-content: center;
         }
         
         .tech-video {
             width: 100%;
-            max-width: 800px;
             height: auto;
-            aspect-ratio: 16 / 10;
             background: #000;
             border-radius: var(--border-radius-lg);
-            object-fit: contain;
         }
         
         .video-overlay {
@@ -1386,8 +1382,8 @@
             }
             
             .tech-video {
-                aspect-ratio: 16 / 10;
-                max-width: 100%;
+                width: 100%;
+                height: auto;
             }
             
             .tech-video-container {
@@ -1662,10 +1658,9 @@
                 
                 <!-- GLEC AI Demo Video -->
                 <div class="tech-video-container">
-                    <video class="tech-video" autoplay muted loop playsinline controls id="glecAiVideo">
+                    <video class="tech-video" autoplay muted loop playsinline controls preload="auto" id="glecAiVideo">
                         <source src="assets/videos/화면 기록 2025-08-20 오후 3.14.31.mov" type="video/quicktime">
-                        <source src="assets/videos/화면 기록 2025-08-20 오후 3.14.31.mov" type="video/mp4">
-                        <p>Your browser does not support the video tag.</p>
+                        <p>Your browser does not support the video tag or cannot load the video file.</p>
                     </video>
                     <div class="video-overlay">
                         <h4>GLEC AI Live Demo</h4>
@@ -2133,13 +2128,22 @@
             videoObserver.observe(video);
         });
         
-        // Enhanced force autoplay for tech videos
+        // Enhanced force autoplay for tech videos with debugging
         function forceTechVideoAutoplay() {
             const techVideos = document.querySelectorAll('#glecAiVideo, #glecApiVideo');
             
             techVideos.forEach((video, index) => {
                 if (video) {
                     console.log(`Setting up tech video ${index + 1}:`, video.id);
+                    console.log('Video src:', video.querySelector('source')?.src);
+                    
+                    // Error handling
+                    video.addEventListener('error', (e) => {
+                        console.error(`Video ${video.id} error:`, e);
+                        console.log('Current source:', video.currentSrc);
+                        console.log('Network state:', video.networkState);
+                        console.log('Ready state:', video.readyState);
+                    });
                     
                     // Set video properties programmatically
                     video.muted = true;
