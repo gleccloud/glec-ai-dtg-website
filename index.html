@@ -1174,6 +1174,167 @@
             color: rgba(255, 255, 255, 0.5);
         }
 
+        /* Technology Section */
+        .technology-section {
+            padding: var(--space-3xl) var(--space-xl);
+            background: linear-gradient(135deg, rgba(0, 255, 255, 0.05) 0%, rgba(255, 0, 255, 0.05) 100%);
+            position: relative;
+        }
+        
+        .technology-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--glec-cyan), transparent);
+        }
+        
+        .tech-block {
+            margin-top: var(--space-3xl);
+            padding: var(--space-2xl);
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            border-radius: var(--border-radius-xl);
+            backdrop-filter: blur(10px);
+        }
+        
+        .tech-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--space-2xl);
+            flex-wrap: wrap;
+            gap: var(--space-lg);
+        }
+        
+        .tech-title {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--glec-cyan), var(--glec-magenta));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .tech-badge {
+            padding: var(--space-sm) var(--space-lg);
+            background: linear-gradient(135deg, var(--glec-neon-blue), var(--glec-neon-pink));
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--space-xl);
+            margin-bottom: var(--space-2xl);
+        }
+        
+        .tech-card {
+            padding: var(--space-xl);
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(0, 255, 255, 0.1);
+            border-radius: var(--border-radius-lg);
+            transition: all 0.3s ease;
+        }
+        
+        .tech-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--glec-cyan);
+            box-shadow: 0 10px 30px rgba(0, 255, 255, 0.3);
+        }
+        
+        .tech-icon {
+            font-size: 2.5rem;
+            margin-bottom: var(--space-md);
+        }
+        
+        .tech-card h4 {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            color: var(--glec-cyan);
+            margin-bottom: var(--space-md);
+        }
+        
+        .tech-card p {
+            color: var(--glec-light-gray);
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+        
+        .tech-stats {
+            display: flex;
+            justify-content: space-around;
+            padding: var(--space-xl);
+            background: rgba(0, 255, 255, 0.05);
+            border-radius: var(--border-radius-lg);
+            flex-wrap: wrap;
+            gap: var(--space-xl);
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            display: block;
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--glec-cyan), var(--glec-yellow));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            display: block;
+            margin-top: var(--space-sm);
+            color: var(--glec-light-gray);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .tech-integration {
+            padding: var(--space-xl);
+            background: linear-gradient(135deg, rgba(0, 255, 255, 0.1), rgba(255, 0, 255, 0.1));
+            border-radius: var(--border-radius-lg);
+            border-left: 4px solid var(--glec-cyan);
+        }
+        
+        .tech-integration h4 {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            color: var(--glec-yellow);
+            margin-bottom: var(--space-md);
+        }
+        
+        .tech-integration p {
+            color: var(--glec-light-gray);
+            line-height: 1.8;
+        }
+        
+        @media (max-width: 768px) {
+            .tech-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .tech-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .tech-stats {
+                flex-direction: column;
+            }
+        }
+        
         /* Footer */
         .footer {
             padding: var(--space-3xl) var(--space-xl);
@@ -1406,6 +1567,108 @@
                         to drivers. Voice warnings during hazardous situations reduce accident rates by over 20%,<br>
                         supporting safe driving through natural conversations with drivers.
                     </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Technology Section -->
+    <section class="technology-section" id="technology">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">CORE TECHNOLOGY</span>
+                <h2 class="section-title">Cutting-Edge AI & API Technology</h2>
+                <p class="section-description">
+                    World-leading AI technology and international standard carbon measurement API<br>
+                    Creating sustainable logistics through innovation
+                </p>
+            </div>
+            
+            <!-- GLEC AI Technology -->
+            <div class="tech-block">
+                <div class="tech-header">
+                    <h3 class="tech-title">GLEC AI - 20B LLM Real-time Inference Engine</h3>
+                    <span class="tech-badge">AI SAFETY</span>
+                </div>
+                
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <div class="tech-icon">🧠</div>
+                        <h4>20B Parameter LLM</h4>
+                        <p>4-bit quantization for real-time inference with embedded weights from accident-prone area datasets (weather, time, location patterns)</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">📡</div>
+                        <h4>Real-time Data Integration</h4>
+                        <p>CAN Protocol data, GPS tracking, live traffic incidents, and congestion information processed as real-time embedding weights</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">🔌</div>
+                        <h4>Vehicle Context Protocol (VCP)</h4>
+                        <p>Proprietary data integration standard for analog truck sensors, enabling extended embedding weights from legacy vehicle systems</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">🎯</div>
+                        <h4>Urgency-based Inference</h4>
+                        <p>Context-aware AI that prioritizes safety and carbon reduction with differential sensitivity, delivered through real-time voice agent</p>
+                    </div>
+                </div>
+                
+                <div class="tech-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">40%</span>
+                        <span class="stat-label">Accident Reduction</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">20B</span>
+                        <span class="stat-label">Parameters</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number"><100ms</span>
+                        <span class="stat-label">Response Time</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- GLEC API Technology -->
+            <div class="tech-block">
+                <div class="tech-header">
+                    <h3 class="tech-title">GLEC API - ISO-14083 Carbon Measurement Platform</h3>
+                    <span class="tech-badge">CARBON NEUTRAL</span>
+                </div>
+                
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <div class="tech-icon">🌍</div>
+                        <h4>ISO-14083 Standard</h4>
+                        <p>Complete API implementation of international freight carbon emission measurement standard for global compliance</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">📊</div>
+                        <h4>Real-time Quantification</h4>
+                        <p>Instant carbon footprint calculation enabling eco-driving awareness and behavior modification for drivers</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">🏢</div>
+                        <h4>Supply Chain Reporting</h4>
+                        <p>Enterprise-grade carbon emission reporting for regulatory compliance and sustainability initiatives</p>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <div class="tech-icon">💳</div>
+                        <h4>Carbon Credit Infrastructure</h4>
+                        <p>Core platform for transport carbon credit issuance, enabling monetization of emission reductions</p>
+                    </div>
+                </div>
+                
+                <div class="tech-integration">
+                    <h4>Seamless DTG Integration</h4>
+                    <p>GLEC API works in perfect harmony with GLEC DTG hardware, creating a comprehensive ecosystem for sustainable logistics transformation. Real-time data from vehicles flows through our API, providing actionable insights for both drivers and fleet managers.</p>
                 </div>
             </div>
         </div>
