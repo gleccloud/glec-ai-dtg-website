@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OG Image Generator</title>
+    <style>
+        body { margin: 0; padding: 20px; background: #222; color: white; font-family: Arial; }
+        #canvas { border: 2px solid #00ffff; margin-bottom: 20px; }
+        button { padding: 15px 30px; background: linear-gradient(135deg, #00ffff, #ff00ff); border: none; color: black; font-weight: bold; cursor: pointer; border-radius: 8px; font-size: 16px; margin: 10px; }
+        .controls { margin-bottom: 20px; }
+        textarea { width: 100%; height: 100px; background: #333; color: white; border: 1px solid #555; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>GLEC AI-DTG Open Graph Image Generator</h1>
+    
+    <div class="controls">
+        <button onclick="generateImage()">Generate 1200x630 OG Image</button>
+        <button onclick="downloadImage()">Download PNG</button>
+        <button onclick="copyBase64()">Copy as Base64</button>
+    </div>
+    
+    <canvas id="canvas" width="1200" height="630"></canvas>
+    
+    <div>
+        <h3>Base64 Output:</h3>
+        <textarea id="base64Output" readonly placeholder="Base64 data will appear here..."></textarea>
+    </div>
+    
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        function generateImage() {
+            // Clear canvas
+            ctx.clearRect(0, 0, 1200, 630);
+            
+            // Background gradient
+            const bgGradient = ctx.createLinearGradient(0, 0, 1200, 630);
+            bgGradient.addColorStop(0, '#0a0a0a');
+            bgGradient.addColorStop(0.3, '#1a0a2a');
+            bgGradient.addColorStop(0.7, '#0a1a2a');
+            bgGradient.addColorStop(1, '#0a0a0a');
+            ctx.fillStyle = bgGradient;
+            ctx.fillRect(0, 0, 1200, 630);
+            
+            // Grid pattern
+            ctx.strokeStyle = 'rgba(0, 255, 255, 0.1)';
+            ctx.lineWidth = 1;
+            for (let i = 0; i < 1200; i += 50) {
+                ctx.beginPath();
+                ctx.moveTo(i, 0);
+                ctx.lineTo(i, 630);
+                ctx.stroke();
+            }
+            for (let i = 0; i < 630; i += 50) {
+                ctx.beginPath();
+                ctx.moveTo(0, i);
+                ctx.lineTo(1200, i);
+                ctx.stroke();
+            }
+            
+            // Main title with glow
+            ctx.shadowColor = '#00ffff';
+            ctx.shadowBlur = 20;
+            ctx.font = 'bold 72px Arial';
+            ctx.textAlign = 'center';
+            
+            // Title gradient
+            const titleGradient = ctx.createLinearGradient(300, 200, 900, 200);
+            titleGradient.addColorStop(0, '#00ffff');
+            titleGradient.addColorStop(0.5, '#ff00ff');
+            titleGradient.addColorStop(1, '#ffff00');
+            ctx.fillStyle = titleGradient;
+            ctx.fillText('GLEC AI-DTG', 600, 200);
+            
+            // Reset shadow
+            ctx.shadowBlur = 0;
+            
+            // Subtitle
+            ctx.font = 'bold 32px Arial';
+            ctx.fillStyle = '#00ffff';
+            ctx.fillText('AI Transformation(AX) for Old Freight Trucks', 600, 280);
+            
+            // Device illustration (simple rectangle with glow)
+            ctx.shadowColor = '#00ffff';
+            ctx.shadowBlur = 15;
+            ctx.fillStyle = '#1a1a3a';
+            ctx.fillRect(200, 350, 200, 120);
+            ctx.strokeStyle = '#00ffff';
+            ctx.lineWidth = 2;
+            ctx.strokeRect(200, 350, 200, 120);
+            
+            // Device text
+            ctx.shadowBlur = 0;
+            ctx.font = 'bold 24px Arial';
+            ctx.fillStyle = '#00ffff';
+            ctx.fillText('GLEC', 300, 400);
+            ctx.font = '20px Arial';
+            ctx.fillText('DTG', 300, 425);
+            ctx.font = '14px Arial';
+            ctx.fillText('SERIES 5', 300, 445);
+            
+            // Truck silhouette (simple representation)
+            ctx.fillStyle = '#333';
+            ctx.fillRect(500, 380, 120, 60);
+            ctx.fillRect(620, 390, 80, 50);
+            // Arrow
+            ctx.strokeStyle = '#ffff00';
+            ctx.lineWidth = 3;
+            ctx.beginPath();
+            ctx.moveTo(430, 410);
+            ctx.lineTo(480, 410);
+            ctx.moveTo(470, 400);
+            ctx.lineTo(480, 410);
+            ctx.lineTo(470, 420);
+            ctx.stroke();
+            
+            // Modern truck
+            const modernGradient = ctx.createLinearGradient(750, 380, 850, 440);
+            modernGradient.addColorStop(0, '#4a4a6a');
+            modernGradient.addColorStop(1, '#2a2a4a');
+            ctx.fillStyle = modernGradient;
+            ctx.fillRect(750, 380, 120, 60);
+            ctx.fillRect(870, 390, 80, 50);
+            
+            // Glow effect on modern truck
+            ctx.strokeStyle = '#00ffff';
+            ctx.lineWidth = 2;
+            ctx.strokeRect(750, 380, 120, 60);
+            ctx.strokeRect(870, 390, 80, 50);
+            
+            // Bottom text
+            ctx.font = '24px Arial';
+            ctx.fillStyle = '#ffffff';
+            ctx.fillText('Premium AI Tachograph Platform', 600, 520);
+            
+            // Features
+            ctx.font = '18px Arial';
+            ctx.fillStyle = '#ffff00';
+            ctx.fillText('40% Accident Reduction  •  ISO-14083 Compliance  •  Real-time Analytics', 600, 560);
+            
+            // Website
+            ctx.font = '16px Arial';
+            ctx.fillStyle = '#888888';
+            ctx.fillText('www.glec.ai', 600, 590);
+            
+            // Corner accents
+            ctx.strokeStyle = '#00ffff';
+            ctx.lineWidth = 4;
+            
+            // Top corners
+            ctx.beginPath();
+            ctx.moveTo(0, 40);
+            ctx.lineTo(0, 0);
+            ctx.lineTo(40, 0);
+            ctx.stroke();
+            
+            ctx.beginPath();
+            ctx.moveTo(1160, 0);
+            ctx.lineTo(1200, 0);
+            ctx.lineTo(1200, 40);
+            ctx.stroke();
+            
+            // Bottom corners
+            ctx.beginPath();
+            ctx.moveTo(0, 590);
+            ctx.lineTo(0, 630);
+            ctx.lineTo(40, 630);
+            ctx.stroke();
+            
+            ctx.beginPath();
+            ctx.moveTo(1160, 630);
+            ctx.lineTo(1200, 630);
+            ctx.lineTo(1200, 590);
+            ctx.stroke();
+            
+            // Generate base64
+            const base64 = canvas.toDataURL('image/png');
+            document.getElementById('base64Output').value = base64;
+        }
+        
+        function downloadImage() {
+            const link = document.createElement('a');
+            link.download = 'glec-og-image-1200x630.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        }
+        
+        function copyBase64() {
+            const textarea = document.getElementById('base64Output');
+            textarea.select();
+            document.execCommand('copy');
+            alert('Base64 copied to clipboard!');
+        }
+        
+        // Generate on load
+        generateImage();
+    </script>
+</body>
+</html>
